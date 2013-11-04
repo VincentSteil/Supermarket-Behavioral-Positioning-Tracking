@@ -1,6 +1,6 @@
 {
     "name": "supermarket-web-server",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "author": "SLIP Group A <msanatan@gmail.com>",
     "description": "Server that connects with Android devices and the database server",
     "contributors": [
