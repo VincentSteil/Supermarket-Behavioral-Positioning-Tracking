@@ -15,14 +15,14 @@ app.configure(function() {
     app.use(express.bodyParser());
     // Set up the database server connection
     connection = mysql.createConnection({
-        host: process.env.IP,
-        port: process.env.PORT,
-        user: 'pavel',
-        password: 'pavel\'s password'
+        host: '172.20.161.9', // Will change periodically
+        port: '3306',
+        user: 'pasha',
+        password: 'password'
     });
 });
 
-app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT, process.env.IP); //set port on localhost
 
 // Set the  server/api key for GCM
 var sender = new gcm.Sender('AIzaSyCBas1G4aI6k_hCSgFF0n8vcTtmVN5NFEA');
@@ -41,9 +41,13 @@ app.post('/', function(req, res) {
     if(req.body && req.body.regId) {
         // Retrieve JSON data about customer
         var reg_id = req.body.regId;
-        var trolley_id = req.body.name;
-        var customer_id = req.body.email;
-        var time_connected = req.body.time;
+        var cart_id = req.body.cartId;
+        var customer_id = req.body.customerId;
+        var shopping_list = null;
+        if (req.body.shoppingList) {
+            shopping_list = req.body.shoppingList;
+        }
+        var time_connected = new Date().getTime();
 
         // Add to the list of customers present
         registration_ids.push(reg_id);
@@ -51,7 +55,9 @@ app.post('/', function(req, res) {
         + ' connected at: ' + time_connected);
 
         // Signal to database that customer is active
-        var query = connection.query('INSERT INTO Active_Customers SET ?', req.body,
+        var sql = 'INSERT INTO Active_Customers (Cusomter_ID, Cart_ID, Time_Connected) VALUES ?';
+        var values = [customer_id, cart_id, time_connected];
+        var query = connection.query(sql, values,
             function(err, result) {
                 if (err) {
                     throw err;
