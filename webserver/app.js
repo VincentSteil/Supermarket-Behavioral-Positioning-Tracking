@@ -1,31 +1,35 @@
 var express = require('express');
 var gcm = require('node-gcm');
-var routes = require('./routes');
 var mysql = require('mysql');
+var routes = require('./routes');
+var config = require('./config');
 var connection;
 
 // Create an express app
 var app = express();
 
+// Store the db configuration
+var db_config = {
+        host: config.sql_host,
+        port: config.sql_port,
+        user: config.sql_user,
+        password: config.sql_password
+    }
+
 app.configure(function() {
     // Set location of views and template engine
-    app.set('views', __dirname + '/views');
-    app.set('view engine', 'ejs');
+    app.set('views', config.view_dir);
+    app.set('view engine', config.template_engine);
     // To handle post data
     app.use(express.bodyParser());
     // Set up the database server connection
-    connection = mysql.createConnection({
-        host: '172.20.161.9', // Will change periodically
-        port: '3306',
-        user: 'pasha',
-        password: 'password'
-    });
+    connection = mysql.createConnection(db_config);
 });
 
-app.listen(process.env.PORT, process.env.IP); //set port on localhost
+app.listen(config.dev_port, config.dev_ip);
 
 // Set the  server/api key for GCM
-var sender = new gcm.Sender('AIzaSyCBas1G4aI6k_hCSgFF0n8vcTtmVN5NFEA');
+var sender = new gcm.Sender(config.gcm_api_key);
 
 // Store of registration IDs - unique to every Android phone
 var registration_ids = [];
