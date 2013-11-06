@@ -34,6 +34,21 @@ var sender = new gcm.Sender(config.gcm_api_key);
 // Store of registration IDs - unique to every Android phone
 var registration_ids = [];
 
+// Insert a customer to the database
+var insert_customer = function(connection, customer_id, cart_id, time_connected, shopping_list) {
+    // Signal to database that customer is active
+    var sql = 'INSERT INTO Active_Customers (Cusomter_ID, Cart_ID, Time_Connected) VALUES ?';
+    var values = [customer_id, cart_id, time_connected];
+    var query = connection.query(sql, values,
+        function(err, result) {
+            if (err) {
+                throw err;
+            }
+            console.log('Query succesful!');
+            console.log(query.sql);
+        });
+};
+
 // Function for the main administrator's view
 //app.get('/', routes.index);
 app.get('/', function(req, res) {
@@ -58,16 +73,6 @@ app.post('/', function(req, res) {
         console.log('New user: ' + customer_id + ' using trolley: ' + trolley_id
         + ' connected at: ' + time_connected);
 
-        // Signal to database that customer is active
-        var sql = 'INSERT INTO Active_Customers (Cusomter_ID, Cart_ID, Time_Connected) VALUES ?';
-        var values = [customer_id, cart_id, time_connected];
-        var query = connection.query(sql, values,
-            function(err, result) {
-                if (err) {
-                    throw err;
-                }
-                console.log('Query succesful!');
-                console.log(query.sql);
-            });
+        insert_customer(connection, customer_id, cart_id, time_connected, shopping_list);
     }
 });
