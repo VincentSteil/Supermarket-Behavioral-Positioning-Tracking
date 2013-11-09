@@ -25,5 +25,8 @@
     "license": "MIT",
     "engines": {
         "node": ">=1.0"
+    },
+    "scripts": {
+        "start": "node app.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
     }
 }
