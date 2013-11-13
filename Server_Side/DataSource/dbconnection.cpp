@@ -5,6 +5,9 @@
 #include <QVariant>
 #include <QMutexLocker>
 
+#include <QDebug>
+#include <stdio.h>
+
 CDBConnection::CDBConnection(TConnConfig *config, QObject *parent)
     : QObject(parent)
     , m_pConfig(config)
@@ -87,6 +90,7 @@ TTile CDBConnection::GetTile(char nodeIdA, char nodeIdB, char nodeIdC)
 
     if(query.exec()){
         if(query.size() == 1){
+            query.next();
             ret.x = query.value(XY_FROM_TILES_X_COL).toInt();
             ret.y = query.value(XY_FROM_TILES_Y_COL).toInt();
         }

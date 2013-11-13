@@ -1,6 +1,8 @@
 #include "serialconnection.h"
 #include "serialdefines.h"
 
+#include <stdio.h>
+
 bool posBlockNow = false;
 int posBlockBytes = 0;
 
@@ -15,6 +17,7 @@ CSerialConnection::CSerialConnection(TConnConfig *config, QObject *parent)
 
 bool CSerialConnection::Connect()
 {
+    printf("Connect\n");
     bool ret;
     if(m_serialPort.isOpen())
         Disconnect();

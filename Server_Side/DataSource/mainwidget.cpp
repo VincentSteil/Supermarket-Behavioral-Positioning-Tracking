@@ -81,11 +81,11 @@ void CMainWidget::HandleNewFrameData()
 {
     QThread *workerThread = new QThread;
     CPosDataWorker *worker = new CPosDataWorker(&m_dbCon);
+    m_serialCon.ReadNewFrameData(worker->frameData);
     worker->moveToThread(workerThread);
 
     connect(workerThread, SIGNAL(started()), worker, SLOT(process()));
     connect(workerThread, SIGNAL(finished()), workerThread, SLOT(deleteLater()));
-    connect(workerThread, SIGNAL(terminated()), workerThread, SLOT(deleteLater()));
 
     connect(worker, SIGNAL(finished()), workerThread, SLOT(quit()));
     connect(worker, SIGNAL(finished()), worker, SLOT(deleteLater()));
@@ -141,7 +141,6 @@ void CMainWidget::StartCstmrMon()
 
     connect(workerThread, SIGNAL(started()), worker, SLOT(process()));
     connect(workerThread, SIGNAL(finished()), workerThread, SLOT(deleteLater()));
-    connect(workerThread, SIGNAL(terminated()), workerThread, SLOT(deleteLater()));
 
     connect(worker, SIGNAL(finished()), workerThread, SLOT(quit()));
     connect(worker, SIGNAL(finished()), worker, SLOT(deleteLater()));

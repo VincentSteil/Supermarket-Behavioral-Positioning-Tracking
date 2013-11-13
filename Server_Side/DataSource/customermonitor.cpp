@@ -46,7 +46,7 @@ void CCustomerMonitor::process()
                     if(it == tmpCustomers.end()){
                         // a new customer
                         cdata[CART_ID_BYTE_NO] = newList[i].cart_id;
-                        data.append(cdata, 2);
+                        data.append((char*)cdata, 2);
                         emit Error("New customer");
                     }
                     else{
@@ -69,6 +69,12 @@ void CCustomerMonitor::process()
 
                 if(m_pSerialConn->IsConnected())
                     m_pSerialConn->SendData(data);
+
+                printf("size: %d 0x", data.size());
+                for(int k(0); k < data.size(); k++){
+                    printf("%02X", 0xFF & data.at(k));
+                }
+                printf("\n");
             }
             else
                 emit Error("Failed to get customer list");

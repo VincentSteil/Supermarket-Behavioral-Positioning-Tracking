@@ -3,7 +3,14 @@
 
 #include "config.h"
 
+#define MOC_SERIAL_CONN
+
+#ifdef MOC_SERIAL_CONN
+#include "mocserialport.h"
+#else
 #include <QSerialPort>
+#endif
+
 #include <QObject>
 #include <QByteArray>
 #include <QMutex>
@@ -46,7 +53,12 @@ private:
 
     TConnConfig *m_connCfg;
 
-    QSerialPort m_serialPort;
+#ifdef MOC_SERIAL_CONN
+    MocSerialPort
+#else
+    QSerialPort
+#endif
+    m_serialPort;
 
     QByteArray m_prevFrameData;
     QByteArray m_nxtFrameData;

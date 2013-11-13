@@ -21,7 +21,8 @@ SOURCES += main.cpp\
     customermonitor.cpp \
     posdataworker.cpp \
     errorlog.cpp \
-    customerlist.cpp
+    customerlist.cpp \
+    mocserialport.cpp
 
 HEADERS  += mainwindow.h \
     settingsdialog.h \
@@ -34,7 +35,8 @@ HEADERS  += mainwindow.h \
     serialdefines.h \
     posdataworker.h \
     errorlog.h \
-    customerlist_shared.h
+    customerlist_shared.h \
+    mocserialport.h
 
 FORMS    += mainwindow.ui \
     settingsdialog.ui \

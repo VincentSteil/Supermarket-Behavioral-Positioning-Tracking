@@ -4,6 +4,7 @@
 #include <map>
 #include <vector>
 #include <algorithm>
+#include <stdio.h>
 
 typedef struct{
     char cart_id;
@@ -38,6 +39,8 @@ void CPosDataWorker::process()
 
     TTile tile;
 
+    printf("start pos process\n");
+
     // read the frame data and sort it to different nodes
     char *end_addr;
     TPackedData *dataPtr;
@@ -45,8 +48,9 @@ void CPosDataWorker::process()
     dataPtr = (TPackedData *)frameData.data();
     end_addr = frameData.data() + frameData.size();
 
-    while(dataPtr++ < (TPackedData *)end_addr){
+    while(dataPtr < (TPackedData *)end_addr){
         data[dataPtr->cart_id].push_back({dataPtr->node_id, dataPtr->delay});
+        dataPtr++;
     }
 
     // get the position of each node with data
@@ -58,6 +62,7 @@ void CPosDataWorker::process()
             continue;
 
         for(int i = 0; i < (int)(it->second.size() - 2); i++){
+
             // take lowest time and try to find tile they belong to
             tile = m_pDbConn->GetTile(it->second[i].node_id, it->second[i+1].node_id, it->second[i+2].node_id);
 
