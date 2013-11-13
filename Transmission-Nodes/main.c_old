@@ -1,0 +1,82 @@
+#include <stdint.h>
+
+#include "app_common/app_timer.h"
+#include "nrf_gpio.h"
+#include "simple_uart.h"
+
+//	Timer settings
+//timer prescaler is 12-bit -> max value is 4095
+//when set to 4095, freq gotten is 8Hz
+#define APP_TIMER_PRESCALER             4095
+//for this example 1 is enough, but lets see how it works with more
+#define APP_TIMER_MAX_TIMERS            2
+#define APP_TIMER_OP_QUEUE_SIZE         4
+
+#define GPIO_TIMER_TICKS                6
+//gpio P0.6 == GPIO-0
+#define GPIO_NO                         6
+
+#define UART_TX                         23
+#define UART_RX                         22
+
+unsigned char printBuff[32];
+
+void onTimeout(void * p_context)
+{
+    nrf_gpio_pin_toggle(GPIO_NO);
+
+    unsigned char *value = (unsigned char*)p_context;
+    (*value)++;
+
+    sprintf((char*)printBuff, "Value %u\n", *value);
+    simple_uart_putstring(printBuff);
+}
+
+void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+{
+	sprintf((char*)printBuff, "Error %d, lNo %d", (int)error_code, (int)line_num);
+	simple_uart_putstring(printBuff);
+}
+
+int main(void)
+{
+    app_timer_id_t timerId;
+    unsigned char value = 1;
+
+    //create timer with no scheduler
+    APP_TIMER_INIT(APP_TIMER_PRESCALER, APP_TIMER_MAX_TIMERS, APP_TIMER_OP_QUEUE_SIZE, false);
+
+    //app timer depends on RTC1 which uses LFCLK. Start it and wait until started!
+    NRF_CLOCK->LFCLKSRC = 0; // RC Timer
+    NRF_CLOCK->EVENTS_LFCLKSTARTED = 0;
+    NRF_CLOCK->TASKS_LFCLKSTART = 1;
+    /* Wait for the external oscillator to start up */
+    while (NRF_CLOCK->EVENTS_LFCLKSTARTED == 0)
+    {
+        //just wait
+    }
+
+    /**timeout**/
+    //create a timer to execute every
+    app_timer_create(&timerId, APP_TIMER_MODE_REPEATED, onTimeout);
+    //start timer every 4 ticks - 0.5 second
+    app_timer_start(timerId, GPIO_TIMER_TICKS, &value);
+
+    /**GPIO**/
+    //set GPIO output
+    nrf_gpio_cfg_output(GPIO_NO);
+
+    /**uart**/
+    //configure uart - no HwCtrl (no RTS, CTS), baudrate is predefined and set to 38400
+    //in our board, FT232TX is 22, FT232RX is 23 REVERSED?!?!?!?!
+    simple_uart_config(0, UART_TX, 0, UART_RX, 0);
+
+    //is this correct? Shouldn't we go to sleep or so?
+    //maybe we could use the Scheduler instead?
+    while(true) {
+        //do nothing, wait for an app timer
+    }
+
+    return 0;
+}
+

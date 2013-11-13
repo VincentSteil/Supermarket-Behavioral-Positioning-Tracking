@@ -19,8 +19,14 @@
         "mysql": "2.0.0-alpha9",
         "node-gcm": "0.9.x"
     },
+    "devDependencies" : {
+        "assert" : "0.4.9"
+    },
     "license": "MIT",
     "engines": {
         "node": ">=1.0"
+    },
+    "scripts": {
+        "start": "node app.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
     }
 }
