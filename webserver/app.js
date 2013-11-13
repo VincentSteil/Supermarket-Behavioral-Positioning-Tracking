@@ -101,4 +101,34 @@ app.post('/', function(req, res) {
     }
 });
 
+setInterval(function() {
+    console.log('Check DB');
+    var message;
+    var query = connection.query('SELECT * FROM Cart_Positioning', function(err, rows, fields) {
+        if (err) {
+            throw new Error('Failed');
+        }
+        console.log('# of rows in db ' + rows.length);
+        message = new gcm.Message();
+        for (var i = 0; i < rows.length; i++) {
+            var c_id = rows[i].Customer_Id;
+            console.log(c_id);
+            for (var customer_data in registration_ids) {
+                if (customer_data['customer_id'] === c_id) {
+                    message.addDataWithObject({
+                        title: 'Position',
+                        x: rows[i].X,
+                        y: rows[i].Y
+                    });
 
+                    sender.send(message, [customer_data['reg_id']], 4, function(result) {
+                        console.log(result);
+                    });
+
+                    break;
+                }
+            }
+        }
+    });
+
+}, 5000);
