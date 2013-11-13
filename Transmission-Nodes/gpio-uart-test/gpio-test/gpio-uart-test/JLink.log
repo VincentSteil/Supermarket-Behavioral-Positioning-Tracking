@@ -1,0 +1,62 @@
+
+TF772F6C0 000:000 SEGGER J-Link V4.74 Log File (0002ms, 0002ms total)
+TF772F6C0 000:000 DLL Compiled: Jul 17 2013 11:52:31 (0002ms, 0002ms total)
+TF772F6C0 000:000 Logging started @ 2013-10-28 09:28 (0002ms, 0002ms total)
+TF772F6C0 000:002 JLINK_SetWarnOutHandler(...) (0000ms, 0002ms total)
+TF772F6C0 000:002 JLINK_SelectUSB(Port = 0)  returns 0x00 (0000ms, 0002ms total)
+TF772F6C0 000:002 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N: 268002540
+OEM: SEGGER-EDU
+Feature(s): FlashBP, GDB  returns O.K. (0048ms, 0050ms total)
+TF772F6C0 000:050 JLINK_SetErrorOutHandler(...) (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_EnableLog(...) (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_SetInitRegsOnReset(OFF)  returns 0x01 (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_GetDLLVersion()  returns 47400 (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_GetCompileDateTime() (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_GetFirmwareString(...) (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_EMU_HasCapEx(0x00000026)  returns 0x00 (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_EMU_GetProductId() (0000ms, 0050ms total)
+TF772F6C0 000:050 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0051ms total)
+TF772F6C0 000:051 JLINK_GetFirmwareString(...) (0000ms, 0051ms total)
+TF772F6C0 000:051 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0051ms total)
+TF772F6C0 000:051 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0051ms total)
+TF772F6C0 000:051 JLINK_GetHWStatus(...)  returns 0x00 (0001ms, 0052ms total)
+TF772F6C0 000:052 JLINK_SetSpeed(100) (0001ms, 0053ms total)
+TF772F6C0 000:053 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0053ms total)
+TF772F6C0 000:053 JLINK_TIF_GetAvailable(...) (0002ms, 0055ms total)
+TF772F6C0 000:055 JLINK_Connect() >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>  returns 0x01 (0015ms, 0070ms total)
+TF772F6C0 000:070 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0015ms, 0085ms total)
+TF772F6C0 000:085 JLINK_ClrError() (0000ms, 0085ms total)
+TF772F6C0 000:085 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0008ms, 0093ms total)
+TF772F6C0 000:093 JLINK_Connect() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>FPUnit: 4 code (BP) slots and 0 literal slots >0x0D TIF>
+ >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M0 r0p0, Little endian.  returns 0x00 (0215ms, 0308ms total)
+TF772F6C0 000:308 JLINK_CORE_GetFound()  returns 0x60000FF (0000ms, 0308ms total)
+TF772F6C0 000:308 JLINK_GetDeviceFamily()  returns 6 (0000ms, 0308ms total)
+TF772F6C0 000:308 JLINK_GetDeviceFamily()  returns 6 (0000ms, 0308ms total)
+TF772F6C0 000:308 JLINK_SetSpeed(100) (0001ms, 0309ms total)
+TF772F6C0 000:309 JLINK_GetHWStatus(...)  returns 0x00 (0002ms, 0311ms total)
+TF772F6C0 000:311 JLINK_GetSpeedInfo() 4000000 Hz / n, n >= 1 (0000ms, 0311ms total)
+TF772F6C0 000:311 JLINK_MeasureRTCKReactTime() (0000ms, 0311ms total)
+TF772F6C0 000:311 JLINK_GetSpeed()  returns 0x64 (0000ms, 0311ms total)
+TF772F6C0 000:311 JLINK_ExecCommand("device=nRF51822", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "NRF51822" selected (257 KB flash, 8 KB RAM).  returns 0x00 (0001ms, 0312ms total)
+TF772F6C0 000:312 JLINK_Connect() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF>
+ >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF>FPUnit: 4 code (BP) slots and 0 literal slots >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF>Found Cortex-M0 r0p0, Little endian.  returns 0x00 (0153ms, 0465ms total)
+TF772F6C0 000:465 JLINK_WriteU32(0x4001E504, 0x00000001) -- CPU is running -- CPU_WriteMem(4 bytes @ 0x4001E504)  returns 0x00 (0005ms, 0470ms total)
+TF772F6C0 000:470 JLINK_IsHalted()  returns FALSE (0004ms, 0474ms total)
+TF772F6C0 000:474 JLINK_Halt()  returns 0x00 (0035ms, 0505ms total)
+TF772F6C0 000:509 JLINK_BeginDownload(Flags = 0x00) (0000ms, 0505ms total)
+TF772F6C0 000:509 JLINK_WriteMem(0x00000000, 0x9B48 Bytes, ...) -- Data:  00 40 00 20 C1 00 00 00 99 19 00 00 9B 19 00 00 ... -- MA0 is in flash  returns 0x9B48 (0000ms, 0505ms total)
+TF772F6C0 000:509 JLINK_EndDownload() -- -------------------------------------- -- Start of determining dirty areas -- End of determining dirty areas -- Start of preparing flash programming -- Calculating RAM usage -- RAM usage = 3740 Bytes -- Preserving registers -- Preparing memory -- Determining CPU clock frequency -- CPU clock frequency: 16098 kHz -- CPU frequency = 16098 kHz -- Preparing target -- Downloading RAMCode -- Using alternate TurboMode RAMCode -- Checking target RAM -- Preparing RAMCode
+ -- End of preparing flash programming -- CPU is running at 16098 kHz. -- Start of comparing flash -- CRC check was estimated as fastest method -- Comparing range 0x0000 - 0x9BFF (39 Sectors, 39 KB), using multi-block CRC calculation -- CRC does not match for sectors 0-38 -- End of comparing flash -- Start of erasing sectors -- Erasing range 0x00000000 - 0x00007FFF ( 32 Sectors, 32 KB) -- Erasing range 0x00008000 - 0x00009BFF (  7 Sectors, 7 KB) -- End of erasing sectors -- Start of flash programming
+ -- Programming range 0x00000000 - 0x00007FFF ( 32 Sectors, 32 KB) -- Programming range 0x00008000 - 0x00009BFF (  7 Sectors, 7 KB) -- End of flash programming -- Flash programming performed for 1 range (39936 bytes) -- 0x0000 - 0x9BFF (039 Sectors, 39 KB) -- Start of verifying flash -- Checksum calculation was estimated as fastest method -- End of verifying flash -- Start of restoring -- Restore RAMCode -- Restore content of target memory -- Restore target -- Restore memory
+ -- Restore content of registers -- End of restoring -- Total time needed: 6.995s (Prepare: 0.583s, Compare: 0.046s, Erase: 0.839s, Program: 5.465s, Verify: 0.005s, Restore: 0.055s)  returns 0x9C00 (6995ms, 7500ms total)
+TF772F6C0 007:504 JLINK_SetResetDelay(0) (0001ms, 7501ms total)
+TF772F6C0 007:505 JLINK_Reset() -- CPU_ReadMem(4 bytes @ 0x200005BC) -- CPU_WriteMem(4 bytes @ 0x200005BC) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0089ms, 7590ms total)
+TF772F6C0 007:594 JLINK_GoEx(MaxEmulInsts = 0, Flags = 0x01) -- MA0 is in flash -- Unmirror addr 0x000000C0 -- Invalidate MA0 status (0005ms, 7595ms total)
+TF772F6C0 007:599 JLINK_Close() >0x42 TIF> >0x28 TIF> >0x35 TIF> (0012ms, 7607ms total)

@@ -1,0 +1,6 @@
+device nRF51822
+w4 4001e504 1
+loadbin /afs/inf.ed.ac.uk/user/s13/s1367762/slip/slip2/SLIP/slip/gpio-test/_build/gpio-test_xxaa.bin 0x0
+r
+g
+exit
