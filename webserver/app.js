@@ -33,7 +33,7 @@ app.configure(function() {
     connection = mysql.createConnection(db_config);
 });
 
-app.listen(config.port, config.ip);
+app.listen(config.dev_port, config.ip);
 
 // Set the  server/api key for GCM
 var sender = new gcm.Sender(config.gcm_api_key);
@@ -98,6 +98,7 @@ app.post('/', function(req, res) {
     }
     else {
         console.log('Incorrect data sent');
-
     }
 });
+
+

@@ -14,9 +14,10 @@ config.template_engine = 'ejs';
 config.gcm_api_key = 'AIzaSyCBas1G4aI6k_hCSgFF0n8vcTtmVN5NFEA';
 
 // Database settings
-config.sql_host = '172.20.161.9'; // Will change periodically
+config.sql_host = '172.20.160.156'; // Will change periodically
 config.sql_port = '3306';
 config.sql_user = 'pasha';
 config.sql_password = 'password';
+config.database_name = 'SLIP_DB';
 
 module.exports = config;
