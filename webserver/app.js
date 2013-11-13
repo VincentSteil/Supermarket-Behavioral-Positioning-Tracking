@@ -101,7 +101,7 @@ app.post('/', function(req, res) {
     }
 });
 
-setInterval(function() {
+var recursive_db_check = function() {
     console.log('Check DB');
     var message;
     var query = connection.query('SELECT * FROM Cart_Positioning', function(err, rows, fields) {
@@ -130,5 +130,7 @@ setInterval(function() {
             }
         }
     });
+    setTimeout(recursive_db_check, 5000);
+};
 
-}, 5000);
+recursive_db_check();
