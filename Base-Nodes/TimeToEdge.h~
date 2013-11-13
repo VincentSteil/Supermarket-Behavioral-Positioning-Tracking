@@ -1,0 +1,10 @@
+// TimeToEdge.h
+// Vincent Steil
+// 13.11.2013
+
+
+// initialise timer1 with period 1/16MHz for max resolution
+static void timer1_init(void);
+
+// start timer1 measurement
+void timer1_start(void);
