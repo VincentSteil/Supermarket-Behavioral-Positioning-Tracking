@@ -3,7 +3,7 @@
 
 #include "config.h"
 
-#define MOC_SERIAL_CONN
+//#define MOC_SERIAL_CONN
 
 #ifdef MOC_SERIAL_CONN
 #include "mocserialport.h"
