@@ -51,11 +51,9 @@ static void timer1_init(void)
     }
 
     
-    NRF_TIMER1->MODE      = TIMER_MODE_MODE_Timer;          // Set the timer in Timer Mode
-    
-    NRF_TIMER1->PRESCALER = 0;                              // Set timer freq to 16 MHz / 2^0 -> 0.0625us
-    
-    NRF_TIMER1->BITMODE = TIMER_BITMODE_BITMODE_32Bit;      // 32-bit mode
+    NRF_TIMER1->MODE        = TIMER_MODE_MODE_Timer;          // Set the timer in Timer Mode   
+    NRF_TIMER1->PRESCALER   = 0;                              // Set timer freq to 16 MHz / 2^0 -> 0.0625us    
+    NRF_TIMER1->BITMODE     = TIMER_BITMODE_BITMODE_32Bit;      // 32-bit mode
 
 }
 
@@ -66,13 +64,11 @@ void timer1_start(void){
 
 static void gpio_init(void)
 {
-    nrf_gpio_cfg_input(11, NRF_GPIO_PIN_NOPULL);            // Enable Pin11 -> GPIO2
+    nrf_gpio_cfg_input(11, NRF_GPIO_PIN_PULLDOWN);
 
     NVIC_EnableIRQ(GPIOTE_IRQn);                            // Enable interrupt:
-    
-    NRF_GPIOTE->CONFIG[0] =  (GPIOTE_CONFIG_POLARITY_LoToHi << GPIOTE_CONFIG_POLARITY_Pos)      // Set interrupt to trigger on rising edge
-                           | (11 << GPIOTE_CONFIG_PSEL_Pos)                                     // Set interrupt to trigger on Pin11 -> GPIO2
-                           | (GPIOTE_CONFIG_MODE_Event << GPIOTE_CONFIG_MODE_Pos); 
+
+    nrf_gpiote_event_config(0, 11, NRF_GPIOTE_POLARITY_TOGGLE);
 }
 
 void enable_edge_trigger(void){  
@@ -86,6 +82,10 @@ void disable_edge_trigger(void){
 void GPIOTE_IRQHandler(void)
 {
 //    unsigned char buf[32];
+    if (NRF_GPIOTE->EVENTS_IN[0] == 1)                  // Check if GPIO2 being toggled triggered the interrupt
+    {
+        NRF_GPIOTE->EVENTS_IN[0] = 0;                       // Reset interrupt
+    }
     nrf_gpio_pin_toggle(0);
     uint32_t timer_delay;
     
@@ -97,12 +97,8 @@ void GPIOTE_IRQHandler(void)
     disable_edge_trigger();
     // TRIGGER FUNTION TO SEND OUT DATA  
     
-    if ((NRF_GPIOTE->EVENTS_IN[0] == 1) &&                  // Check if GPIO2 being pulled high triggered the interrupt
-        (NRF_GPIOTE->INTENSET & GPIOTE_INTENSET_IN0_Msk))
-    {
-        NRF_GPIOTE->EVENTS_IN[0] = 0;                       // Reset interrupt
-    }
 
+    enable_edge_trigger();
 //    timer1_start();
 }
 
@@ -117,8 +113,6 @@ int main(){
   NVIC_EnableIRQ(GPIOTE_IRQn);
   __enable_irq();
 
-//  nrf_gpio_cfg_output(12);
-//  nrf_gpio_pin_write(12, 1);
 //  simple_uart_config(0, 23, 0, 22, 0);
   nrf_gpio_cfg_output(0);
 
