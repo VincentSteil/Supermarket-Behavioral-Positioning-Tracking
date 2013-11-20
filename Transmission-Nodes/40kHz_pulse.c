@@ -4,17 +4,14 @@
 
 #include <stdint.h>
 #include <stdlib.h>
-#include <math.h>
 #include "nrf.h"
 #include "nrf_soc.h"
 #include "nrf_gpio.h"
-#include "math.h"
-#include "simple_uart.h"
 #include "nrf_gpiote.h"
 #include "40kHz_pulse.h"
 
 void OutPin_Init(void){
-    nrf_gpio_cfg_output(11);
+    nrf_gpio_cfg_output(11);                                // Set GPIO2 as output pin
 }
 
 static void timer1_init(void){
