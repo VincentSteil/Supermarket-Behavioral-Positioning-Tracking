@@ -15,7 +15,7 @@ class CCustomerMonitor
     Q_OBJECT
 
 public:
-    CCustomerMonitor(CDBConnection *pDbConn, CSerialConnection *pSerialConn);
+    CCustomerMonitor(CDBConnection *pDbConn);
 
 public slots:
     void process();
@@ -23,9 +23,9 @@ public slots:
 signals:
     void finished();
     void Error(QString err);
+    void SendData(QByteArray data);
 
 private:
-    CSerialConnection *m_pSerialConn;
     CDBConnection *m_pDbConn;
 
     TCurrCostomers m_currCustomers;

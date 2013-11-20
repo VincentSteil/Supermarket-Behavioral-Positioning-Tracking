@@ -33,6 +33,7 @@ public:
 
 public slots:
     void SendData(QByteArray &data);
+    void SendData1(QByteArray data);
 
 signals:
     void Error(QString err);

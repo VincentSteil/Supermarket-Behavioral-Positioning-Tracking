@@ -136,7 +136,7 @@ void CMainWidget::ConnectSerial()
 void CMainWidget::StartCstmrMon()
 {
     QThread *workerThread = new QThread;
-    CCustomerMonitor *worker = new CCustomerMonitor(&m_dbCon, &m_serialCon);
+    CCustomerMonitor *worker = new CCustomerMonitor(&m_dbCon);
     worker->moveToThread(workerThread);
 
     connect(workerThread, SIGNAL(started()), worker, SLOT(process()));
@@ -145,6 +145,7 @@ void CMainWidget::StartCstmrMon()
     connect(worker, SIGNAL(finished()), workerThread, SLOT(quit()));
     connect(worker, SIGNAL(finished()), worker, SLOT(deleteLater()));
     connect(worker, SIGNAL(Error(QString)), &m_errLog, SLOT(ShowError(QString)));
+    connect(worker, SIGNAL(SendData(QByteArray)), &m_serialCon, SLOT(SendData1(QByteArray)));
 
     workerThread->start();
 }

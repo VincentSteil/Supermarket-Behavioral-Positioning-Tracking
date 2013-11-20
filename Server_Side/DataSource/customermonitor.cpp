@@ -9,9 +9,8 @@
 
 #define SLEEP_INTERVAL_S    2
 
-CCustomerMonitor::CCustomerMonitor(CDBConnection *pDbConn, CSerialConnection *pSerialConn)
+CCustomerMonitor::CCustomerMonitor(CDBConnection *pDbConn)
     : m_pDbConn(pDbConn)
-    , m_pSerialConn(pSerialConn)
     , m_bTerminate(false)
 {
 }
@@ -66,15 +65,9 @@ void CCustomerMonitor::process()
                     data.append(cdata, 2);
                     emit Error("Customer is gone");
                 }
-
-                if(m_pSerialConn->IsConnected())
-                    m_pSerialConn->SendData(data);
-
-                printf("size: %d 0x", data.size());
-                for(int k(0); k < data.size(); k++){
-                    printf("%02X", 0xFF & data.at(k));
-                }
-                printf("\n");
+                emit SendData(data);
+//                if(m_pSerialConn->IsConnected())
+//                    m_pSerialConn->SendData(data);
             }
             else
                 emit Error("Failed to get customer list");

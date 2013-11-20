@@ -62,6 +62,20 @@ void CSerialConnection::SendData(QByteArray &data)
         emit Error("Send data: serial connection is not available");
 }
 
+void CSerialConnection::SendData1(QByteArray data)
+{
+    int res;
+    if(m_serialPort.isOpen()){
+        res = m_serialPort.write(data);
+        if(res == -1)
+            emit Error("Error occurred on serial connection");
+        else if(res != data.length())
+            emit Error("Write/written mismatch");
+    }
+    else
+        emit Error("Send data: serial connection is not available");
+}
+
 void CSerialConnection::ReadNewData()
 {
     EByteType byteType;
