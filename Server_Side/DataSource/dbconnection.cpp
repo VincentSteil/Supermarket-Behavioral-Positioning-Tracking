@@ -67,7 +67,6 @@ bool CDBConnection::SetCurrCstmrPos(TCustomerPosList &pos)
     for(int i = 0; i < (int)pos.size(); i++){
         QSqlQuery query(INSERT_CART_POS, m_db);
         query.bindValue(CART_POS_BIND_CSTMR_ID, pos[i].customer_id);
-        query.bindValue(CART_POS_BIND_TIME, "2013-10-30 15:14:07");
         query.bindValue(CART_POS_BIND_X, pos[i].x);
         query.bindValue(CART_POS_BIND_Y, pos[i].y);
         ret = query.exec();

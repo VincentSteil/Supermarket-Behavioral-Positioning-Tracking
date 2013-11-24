@@ -40,13 +40,13 @@ void CCustomerMonitor::process()
                 m_currCustomers.clear();
                 cdata[TYPE_BYTE_NO] = TYPE_START_CART_TRACKING;
 
-                for(int i = 0; i < newList.size(); i++){
+                for(int i = 0; i < (int)newList.size(); i++){
                     it = tmpCustomers.find(newList[i].cart_id);
                     if(it == tmpCustomers.end()){
                         // a new customer
                         cdata[CART_ID_BYTE_NO] = newList[i].cart_id;
                         data.append((char*)cdata, 2);
-                        emit Error("New customer");
+                        emit Error("INFO: New customer");
                     }
                     else{
                         // remove it from tmpList
@@ -63,11 +63,9 @@ void CCustomerMonitor::process()
                 for(it = tmpCustomers.begin(); it != tmpCustomers.end(); it++){
                     cdata[CART_ID_BYTE_NO] = it->first;
                     data.append(cdata, 2);
-                    emit Error("Customer is gone");
+                    emit Error("INFO: Customer is gone");
                 }
                 emit SendData(data);
-//                if(m_pSerialConn->IsConnected())
-//                    m_pSerialConn->SendData(data);
             }
             else
                 emit Error("Failed to get customer list");

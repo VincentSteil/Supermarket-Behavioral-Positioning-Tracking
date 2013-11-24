@@ -7,11 +7,10 @@
 
 
 
-#define INSERT_CART_POS         "INSERT INTO Cart_Positioning(Customer_ID, Time, X, Y) VALUES (?, ?, ?, ?);"
+#define INSERT_CART_POS         "INSERT INTO Cart_Positioning(Time, Customer_ID, X, Y) VALUES (now(), ?, ?, ?);"
 #define CART_POS_BIND_CSTMR_ID  0
-#define CART_POS_BIND_TIME      1
-#define CART_POS_BIND_X         2
-#define CART_POS_BIND_Y         3
+#define CART_POS_BIND_X         1
+#define CART_POS_BIND_Y         2
 
 #define XY_FROM_3_TILES    "SELECT tbla.Tile_X, tbla.Tile_Y "\
                            "FROM (select b.Tile_X, b.Tile_Y from Stationary_Nodes a, Shopping_Tiles b where a.Adjacent_Tile_ID = b.Tile_ID and a.Node_ID = ?) AS tbla, "\
