@@ -14,7 +14,7 @@ void OutPin_Init(void){
     nrf_gpio_cfg_output(11);                                // Set GPIO2 as output pin
 }
 
-static void timer1_init(void){
+void timer1_init(void){
         
     NRF_CLOCK->EVENTS_HFCLKSTARTED  = 0;                    // Start 16 MHz crystal oscillator
     NRF_CLOCK->TASKS_HFCLKSTART     = 1;
@@ -44,7 +44,7 @@ static void timer1_init(void){
 }
 
 uint8_t timer_cycle_count = 0;
-uint8_t timer_cycle_count_limit = 80;                       // 1ms pwm pulse
+uint32_t timer_cycle_count_limit = 800;                       // 10ms pwm pulse
 
 void TIMER1_IRQHandler(void){
 
