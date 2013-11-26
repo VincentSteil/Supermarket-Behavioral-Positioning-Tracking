@@ -12,6 +12,7 @@
 
 void OutPin_Init(void){
     nrf_gpio_cfg_output(11);                                // Set GPIO2 as output pin
+    nrf_gpio_pin_write(11,1);
 }
 
 void timer1_init(void){
@@ -44,7 +45,7 @@ void timer1_init(void){
 }
 
 uint8_t timer_cycle_count = 0;
-uint32_t timer_cycle_count_limit = 800;                       // 10ms pwm pulse
+uint32_t timer_cycle_count_limit = 8000;                       // 5ms pwm pulse
 
 void TIMER1_IRQHandler(void){
 
