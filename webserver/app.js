@@ -140,11 +140,19 @@ var recursive_db_check = function() {
     console.log('Database polling');
 
     // Get all the customers currently in the database
-    var customers = connection.query('SELECT * FROM Active_Customers', function(error, rows, fields) {
+    var customers = connection.query('SELECT * FROM Active_Customers;', function(error, rows, fields) {
         if (error) {
             throw error;
         }
-        return rows;
+        // Retrieve all the customer ids
+        rows = rows.map(function(row) {
+            return row.Customer_ID;
+        })
+        // Clean up list of users to send messages to
+        // Return list of customers who are also present in the database
+        registration_ids = registration_ids.filter(function(user) {
+            return rows.indexOf(user.customer_id) !== -1
+        });
     });
 
     // Get the positions of the members and send it to the phones
