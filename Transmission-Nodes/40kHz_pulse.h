@@ -9,7 +9,7 @@ void send_pulse(void);
 
 
 // initialise timer1 to 12.5us interrupts
-static void timer1_init(void);
+void timer1_init(void);
 
 // timer1 interrupt handler
 // toggles GPIO2 (Pin11) to generate a 40kHz waveform
