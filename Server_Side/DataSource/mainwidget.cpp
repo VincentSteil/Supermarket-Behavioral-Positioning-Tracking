@@ -17,6 +17,9 @@ CMainWidget::CMainWidget(QWidget *parent)
     , m_errLog(this)
 {
     setupUi(this);
+
+    m_pdereg = new CDeregWidget(&m_dbCon, this);
+
     LoadConfig();
 
     connect(&m_serialCon, SIGNAL(FrameDataReady()), this, SLOT(HandleNewFrameData()));
@@ -105,6 +108,7 @@ void CMainWidget::ConnectDB()
 
     if(res){
         mbox.setText("Connection successful");
+        m_pdereg->SetListView();
     }
     else{
         mbox.setText("Connection failed");
@@ -147,5 +151,13 @@ void CMainWidget::StartCstmrMon()
     connect(worker, SIGNAL(Error(QString)), &m_errLog, SLOT(ShowError(QString)));
     connect(worker, SIGNAL(SendData(QByteArray)), &m_serialCon, SLOT(SendData1(QByteArray)));
 
+    // when we send data over cable something changed -> trigger view update
+    connect(worker, SIGNAL(SendData(QByteArray)), m_pdereg, SLOT(SetListView()));
+
     workerThread->start();
+}
+
+void CMainWidget::ShowDereg()
+{
+    m_pdereg->show();
 }
