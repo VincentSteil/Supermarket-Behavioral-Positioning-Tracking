@@ -36,6 +36,7 @@
     <addaction name="actionSettings"/>
     <addaction name="separator"/>
     <addaction name="actionError_Log"/>
+    <addaction name="actionDeregister"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuTools"/>
@@ -62,6 +63,11 @@
   <action name="actionError_Log">
    <property name="text">
     <string>Error Log</string>
+   </property>
+  </action>
+  <action name="actionDeregister">
+   <property name="text">
+    <string>Deregister</string>
    </property>
   </action>
  </widget>

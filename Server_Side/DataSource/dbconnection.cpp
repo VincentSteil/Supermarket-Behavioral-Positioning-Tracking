@@ -103,3 +103,31 @@ TTile CDBConnection::GetTile(char nodeIdA, char nodeIdB, char nodeIdC)
 
     return ret;
 }
+
+int CDBConnection::GetListModel(QSqlQueryModel &model)
+{
+    QMutexLocker locker(&mutex);
+
+    if(!m_db.isOpen())
+        return -1;
+
+    model.setQuery(GET_ONLY_CUSTOMERS, m_db);
+
+    model.setHeaderData(0, Qt::Horizontal, "Preset Customer IDs");
+
+    return 0;
+}
+
+void CDBConnection::DeregCustomers(QStringList idsList)
+{
+    QMutexLocker locker(&mutex);
+
+    if(!m_db.isOpen())
+        return;
+
+    for(int i = 0; i < idsList.size(); i++){
+        QSqlQuery query(DEREG_CUSTOMER, m_db);
+        query.bindValue(DEREG_CSTMR_ID_BIND, idsList.at(i));
+        query.exec();
+    }
+}

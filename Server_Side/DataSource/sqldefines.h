@@ -23,5 +23,9 @@
 #define XY_FROM_TILES_X_COL 0
 #define XY_FROM_TILES_Y_COL 1
 
+#define GET_ONLY_CUSTOMERS  "SELECT Customer_ID FROM Active_Customers;"
+
+#define DEREG_CUSTOMER      "DELETE FROM Active_Customers WHERE Customer_ID = ?;"
+#define DEREG_CSTMR_ID_BIND 0
 
 #endif // SQLDEFINES_H

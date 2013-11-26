@@ -19,6 +19,7 @@ void MainWindow::SetupGui()
     setCentralWidget(&mainWidget);
     connect(actionSettings, SIGNAL(triggered()), &mainWidget, SLOT(SettingsPanel()));
     connect(actionError_Log, SIGNAL(triggered()), &mainWidget, SLOT(ShowErrLog()));
+    connect(actionDeregister, SIGNAL(triggered()), &mainWidget, SLOT(ShowDereg()));
 
     connect(actionExit, SIGNAL(triggered()), qApp, SLOT(quit()));
 }
