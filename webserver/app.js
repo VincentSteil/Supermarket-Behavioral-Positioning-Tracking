@@ -1,6 +1,7 @@
 var express = require('express');
 var gcm = require('node-gcm');
 var mysql = require('mysql');
+var request = require('request');
 var routes = require('./routes');
 var config = require('./config');
 var connection;
@@ -10,11 +11,12 @@ var app = express();
 
 // Store the db configuration
 var db_config = {
-        host: config.sql_host,
-        port: config.sql_port,
-        user: config.sql_user,
-        password: config.sql_password,
-        database: config.database_name
+    host: config.sql_host,
+    port: config.sql_port,
+    user: config.sql_user,
+    password: config.sql_password,
+    database: config.database_name,
+    insecureAuth: config.insecure_auth
 };
 
 app.configure(function() {
@@ -31,6 +33,12 @@ app.configure(function() {
     app.use(express.bodyParser());
     // Set up the database server connection
     connection = mysql.createConnection(db_config);
+    connection.connect(function(err) {
+        if (!err) {
+            console.log('Connected');
+        }
+        console.log(err);
+    });
 });
 
 app.listen(config.dev_port, config.ip);
@@ -63,38 +71,43 @@ app.post('/', function(req, res) {
     if(req.body && req.body.regId && req.body.trolleyId) {
         // Retrieve JSON data about customer
         var reg_id = req.body.regId;
-        var cart_id = parseInt(req.body.trolleyId);
-        var customer_id = parseInt(req.body.memId);
+        var cart_id = parseInt(req.body.trolleyId, 10);
+        var customer_id = parseInt(req.body.memId, 10);
         var shopping_list = null;
-        if (req.body.shoppingList) {
+        if (req.body.shoppingList) {ON DUPLICATE KEY UPDATE
             shopping_list = req.body.shoppingList;
         }
         var time_connected = new Date().getTime();
 
-        // Add to the list of customers present for later push notifications
-        var user = {
-            'customer_id': customer_id,
-            'reg_id': reg_id
-        };
-        registration_ids.push(user);
-
-        // Send confirmation of connection and list of offers (currently null)
-        // will get offers from DB
-        res.json({
-            'status': 'connected',
-            'offers': null
-        });
-
-        // Signal to database that customer is active
-        var values = {Customer_ID : customer_id, Cart_ID: cart_id, Time_Connected: time_connected};
-        var sql = 'INSERT INTO Active_Customers SET ?';
-        var query = connection.query(sql, values,
-            function(err, result) {
-                if (err) {
-                    throw err;
+        // Do not add user if garbage data is sent
+        if (isNaN(cart_id) || isNaN(customer_id)) {
+            res.json({'error': 'Trolley and Member ID must be integers!'})
+        }
+        // If valid data was sent
+        else {
+            // Add to the list of customers present for later push notifications
+            var user = {
+                'customer_id': customer_id,
+                'ip' : req.ip,
+                'reg_id': reg_id
+            };
+            registration_ids.push(user);
+            console.log(user);
+            // Return a success message
+            res.json({'status': 'connected'})
+            // Signal to database that customer is active
+            var values = {Customer_ID : customer_id, Cart_ID: cart_id, Time_Connected: time_connected};
+            var sql = 'INSERT INTO Active_Customers SET ? ON DUPLICATE KEY UPDATE Customer_ID';
+            var query = connection.query(sql, values,
+                function(err, result) {
+                    if (err) {
+                        throw err;
+                    }
+                    res.send(query.sql);
                 }
-                res.send(query.sql);
-            });
+            );
+        }
+
     }
     else {
         console.log('Incorrect data sent');
@@ -109,22 +122,23 @@ var recursive_db_check = function() {
             throw new Error('Failed');
         }
         console.log('# of rows in db ' + rows.length);
-        message = new gcm.Message();
+
         for (var i = 0; i < rows.length; i++) {
-            var c_id = rows[i].Customer_Id;
-            console.log(c_id);
-            for (var customer_data in registration_ids) {
+            var c_id = rows[i].Customer_ID;
+            console.log('From DB: ' + c_id);
+            for (var j = 0; j < registration_ids.length; j++) {
+                customer_data = registration_ids[j];
                 if (customer_data['customer_id'] === c_id) {
-                    message.addDataWithObject({
-                        title: 'Position',
-                        x: rows[i].X,
-                        y: rows[i].Y
-                    });
-
-                    sender.send(message, [customer_data['reg_id']], 4, function(result) {
-                        console.log(result);
-                    });
-
+                    // Send a request so that GCM messages can be utilised
+                    request.post(
+                        'http://www.raduoprescu.comxa.com/send_push_notification_message.php',
+                        { form: {regId: customer_data['reg_id'], message: rows[i].X+' '+rows[i].Y} },
+                        function (error, response, body) {
+                            if (!error && response.statusCode == 200) {
+                                console.log(body)
+                            }
+                        }
+                    );
                     break;
                 }
             }
