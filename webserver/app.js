@@ -157,7 +157,7 @@ var recursive_db_check = function() {
     });
 
     // Get the positions of the members and send it to the phones
-    var query = connection.query('SELECT * FROM Cart_Positioning ORDER BY Time', function(error, rows, fields) {
+    var query = connection.query('SELECT * FROM Cart_Positioning ORDER BY Time DESC;', function(error, rows, fields) {
         if (error) {
             throw new Error('Failed');
         }
