@@ -33,11 +33,13 @@ app.configure(function() {
     app.use(express.bodyParser());
     // Set up the database server connection
     connection = mysql.createConnection(db_config);
-    connection.connect(function(err) {
-        if (!err) {
-            console.log('Connected');
+    connection.connect(function(error) {
+        if (!error) {
+            console.log('Connected to database');
         }
-        console.log(err);
+        else {
+            throw error;
+        }
     });
 });
 
@@ -91,34 +93,65 @@ app.post('/', function(req, res) {
             registration_ids.push(user);
             console.log(user);
             // Return a success message
-            res.json({'status': 'connected'})
-            // Signal to database that customer is active
-            var values = {Customer_ID : customer_id, Cart_ID: cart_id, Time_Connected: time_connected};
-            var sql = 'INSERT INTO Active_Customers SET ?';
-            var query = connection.query(sql, values,
-                function(err, result) {
-                    if (err) {
-                        throw err;
+            res.json({'status': 'connected'});
+
+
+            // For SQL query
+            var values = {};
+            var sql = '';
+            var insert = true;
+
+            // Check if the customer is in the database before
+            var sql_check = 'SELECT * FROM Active_Customers WHERE Customer_ID = ' + customer_id;
+            var check = connection.query(sql_check, function(err, rows, fields) {
+                for (var i = 0; i < rows.length; rows++) {
+                    if (rows[i].Customer_ID === customer_id) {
+                        values = {Cart_ID: cart_id, Time_Connected: time_connected};
+                        sql = 'UPDATE Active_Customers SET Cart_ID = ' + cart_id + ', Time_Connected = ' + time_connected + ' WHERE Customer_ID = ' + customer_id + ';';
+                        insert = false;
                     }
-                    res.send(query.sql);
+                }
+            });
+
+            // Set up to insert values if the user is not in the db
+            if (insert) {
+                values = {Customer_ID : customer_id, Cart_ID: cart_id, Time_Connected: time_connected};
+                sql = 'INSERT INTO Active_Customers SET ?;';
+            }
+
+            // Run the query to update or insert the user
+            var query = connection.query(sql, values,
+                function(error, rows, fields) {
+                    if (error) {
+                        console.log(sql);
+                        throw error;
+                    }
                 }
             );
-        }
-
+        } // end else when input is valid
     }
     else {
-        console.log('Incorrect data sent');
+        console.log('No registration ID received');
+        res.json({'error': 'No registration ID received'});
     }
 });
 
 var recursive_db_check = function() {
-    console.log('Check DB');
-    var message;
-    var query = connection.query('SELECT * FROM Cart_Positioning', function(err, rows, fields) {
-        if (err) {
+    console.log('Database polling');
+
+    // Get all the customers currently in the database
+    var customers = connection.query('SELECT * FROM Active_Customers', function(error, rows, fields) {
+        if (error) {
+            throw error;
+        }
+        return rows;
+    });
+
+    // Get the positions of the members and send it to the phones
+    var query = connection.query('SELECT * FROM Cart_Positioning', function(error, rows, fields) {
+        if (error) {
             throw new Error('Failed');
         }
-        console.log('# of rows in db ' + rows.length);
 
         for (var i = 0; i < rows.length; i++) {
             var c_id = rows[i].Customer_ID;
@@ -132,7 +165,10 @@ var recursive_db_check = function() {
                         { form: {regId: customer_data['reg_id'], message: rows[i].X+' '+rows[i].Y} },
                         function (error, response, body) {
                             if (!error && response.statusCode == 200) {
-                                console.log(body)
+                                console.log('Message sent to user: ');
+                            }
+                            else {
+                                throw error;
                             }
                         }
                     );
@@ -140,7 +176,7 @@ var recursive_db_check = function() {
             }
         }
     });
-    setTimeout(recursive_db_check, 5000);
+    setTimeout(recursive_db_check, config.TIMEOUT);
 };
 
 recursive_db_check();

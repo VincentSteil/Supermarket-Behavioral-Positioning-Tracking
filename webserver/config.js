@@ -22,4 +22,7 @@ config.sql_password = config.test ? 'password' : 'slipdemo';
 config.database_name = config.test ? 'SLIP_DB' : 'msanatan_SLIP_DB';
 config.insecure_auth = true;
 
+// For polling
+config.TIMEOUT = 5000;
+
 module.exports = config;
