@@ -31,7 +31,7 @@ void timer1_init(void){
     NRF_TIMER1->BITMODE         = TIMER_BITMODE_BITMODE_24Bit;    // 24-bit mode
     NRF_TIMER1->TASKS_CLEAR     = 1;
     NRF_TIMER1->CC[0]           = 25;
-    //NRF_TIMER1->SHORTS          = (TIMER_SHORTS_COMPARE0_CLEAR_Enabled << TIMER_SHORTS_COMPARE0_CLEAR_Pos);
+    NRF_TIMER1->SHORTS          = (TIMER_SHORTS_COMPARE0_CLEAR_Enabled << TIMER_SHORTS_COMPARE0_CLEAR_Pos);
 
 
     //Enable Timer interrupt
@@ -52,7 +52,7 @@ void TIMER1_IRQHandler(void){
     if(NRF_TIMER1->EVENTS_COMPARE[0] == 1){
         NRF_TIMER1->EVENTS_COMPARE[0] = 0;
     }
-    NRF_TIMER1->TASKS_CLEAR = 1;
+    //NRF_TIMER1->TASKS_CLEAR = 1;
     nrf_gpio_pin_toggle(11);                                // Toggle Pin11 -> GPIO2
     timer_cycle_count++;
     if(timer_cycle_count >= timer_cycle_count_limit){       // Make sure to run the pulse for only 1ms
