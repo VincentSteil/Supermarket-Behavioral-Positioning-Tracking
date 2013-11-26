@@ -29,61 +29,9 @@
 #include "nrf_gpio.h"
 #include "simple_uart.h"
 #include "nrf_gpiote.h"
+#include "40kHz_pulse.h"
 
 
-
-
-static void timer1_init(void){
-        
-    NRF_CLOCK->EVENTS_HFCLKSTARTED  = 0;                    // Start 16 MHz crystal oscillator
-    NRF_CLOCK->TASKS_HFCLKSTART     = 1;
-
-    while (NRF_CLOCK->EVENTS_HFCLKSTARTED == 0)             // Wait for the external oscillator to start up
-    {
-        // Do nothing.
-    }
-    
-    NRF_TIMER1->TASKS_STOP      = 1;
-    NRF_TIMER1->MODE            = TIMER_MODE_MODE_Timer;          // Set the timer in Timer Mode   
-    NRF_TIMER1->PRESCALER       = 3;                              // Prescaler 2 produces 2Mhz Hz timer frequency => 1 tick = 32 us.  
-    NRF_TIMER1->BITMODE         = TIMER_BITMODE_BITMODE_24Bit;    // 24-bit mode
-    NRF_TIMER1->TASKS_CLEAR     = 1;
-    NRF_TIMER1->CC[0]           = 25;
-    NRF_TIMER1->SHORTS          = (TIMER_SHORTS_COMPARE0_CLEAR_Enabled << TIMER_SHORTS_COMPARE0_CLEAR_Pos);
-
-
-    //Enable Timer interrupt
-    NRF_TIMER1->INTENCLR = 0xffffffffUL;
-    NRF_TIMER1->INTENSET = (TIMER_INTENSET_COMPARE0_Set << TIMER_INTENSET_COMPARE0_Pos);
-    NVIC_ClearPendingIRQ(TIMER1_IRQn);  
-    NVIC_EnableIRQ(TIMER1_IRQn);
-
-
-
-}
-
-uint8_t timer_cycle_count = 0;
-uint8_t timer_cycle_count_limit = 80;                       // 1ms pwm pulse
-
-void TIMER1_IRQHandler(void){
-
-    if(NRF_TIMER1->EVENTS_COMPARE[0] == 1){
-        NRF_TIMER1->EVENTS_COMPARE[0] = 0;
-    }
-    nrf_gpio_pin_toggle(11);                                // Toggle Pin11 -> GPIO2
-    timer_cycle_count++;
-    if(timer_cycle_count >= timer_cycle_count_limit){       // Make sure to run the pulse for only 1ms
-        NRF_TIMER1->TASKS_STOP  = 1;
-        NRF_TIMER1->TASKS_CLEAR = 1;
-        timer_cycle_count       = 0;
-    }
-    
-}
-
-void send_pulse(void){
-    timer_cycle_count = 0;
-    NRF_TIMER1->TASKS_START     = 1;                            // Start timer1
-}
 
 
 uint8_t LED_counter = 0;
@@ -97,16 +45,15 @@ int main(){
 //  simple_uart_config(0, 23, 0, 22, 0);
   nrf_gpio_cfg_output(0);
   nrf_gpio_pin_write(0,1);
-  nrf_gpio_cfg_output(11);
 
-  
+  OutPin_Init();
   timer1_init();
   send_pulse();
   while (1) {
     if(timer_cycle_count == 0){
         send_pulse();
         LED_counter++;
-        if(LED_counter >= 100){
+        if(LED_counter >= 2){
             nrf_gpio_pin_toggle(0);                                // Toggle Pin11 -> GPIO2
             LED_counter = 0;
         }
