@@ -44,14 +44,14 @@ void timer1_init(void){
 
 }
 
-uint8_t timer_cycle_count = 0;
+uint32_t timer_cycle_count = 0;
 uint32_t timer_cycle_count_limit = 8000;                    // 50ms pwm pulse
 
 void TIMER1_IRQHandler(void){
-   /*
+   
     if(NRF_TIMER1->EVENTS_COMPARE[0] == 1){
         NRF_TIMER1->EVENTS_COMPARE[0] = 0;
-    }*/
+    }
     NRF_TIMER1->TASKS_CLEAR = 1;
     nrf_gpio_pin_toggle(11);                                // Toggle Pin11 -> GPIO2
     timer_cycle_count++;
