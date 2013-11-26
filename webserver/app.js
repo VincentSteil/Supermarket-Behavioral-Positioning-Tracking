@@ -88,7 +88,8 @@ app.post('/', function(req, res) {
             var user = {
                 'customer_id': customer_id,
                 'ip' : req.ip,
-                'reg_id': reg_id
+                'reg_id': reg_id,
+                'last_movement': time_connected
             };
             registration_ids.push(user);
             console.log(user);
@@ -163,11 +164,13 @@ var recursive_db_check = function() {
 
         for (var i = 0; i < rows.length; i++) {
             var c_id = rows[i].Customer_ID;
+            var time = rows[i].Time;
             console.log('From DB: ' + c_id);
             for (var j = 0; j < registration_ids.length; j++) {
                 customer_data = registration_ids[j];
-                if (customer_data['customer_id'] === c_id) {
+                if (customer_data['customer_id'] === c_id && customer_data['last_movement'] <= time) {
                     // Send a request so that GCM messages can be utilised
+                    customer_data['last_movement'] = time;
                     request.post(
                         'http://www.raduoprescu.comxa.com/send_push_notification_message.php',
                         { form: {regId: customer_data['reg_id'], message: rows[i].X+' '+rows[i].Y} },
