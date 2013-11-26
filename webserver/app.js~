@@ -41,7 +41,7 @@ app.configure(function() {
     });
 });
 
-app.listen(config.port, config.ip);
+app.listen(config.dev_port, config.ip);
 
 // Set the  server/api key for GCM
 var sender = new gcm.Sender(config.gcm_api_key);
@@ -73,12 +73,15 @@ app.post('/', function(req, res) {
         var reg_id = req.body.regId;
         var cart_id = parseInt(req.body.trolleyId, 10);
         var customer_id = parseInt(req.body.memId, 10);
+        var shopping_list = null;
+        if (req.body.shoppingList) {ON DUPLICATE KEY UPDATE
+            shopping_list = req.body.shoppingList;
+        }
         var time_connected = new Date().getTime();
 
         // Do not add user if garbage data is sent
         if (isNaN(cart_id) || isNaN(customer_id)) {
-            res.json({'error': 'Trolley and Member ID must be integers!'});
-            console.log('error, user didn\'t connect');
+            res.json({'error': 'Trolley and Member ID must be integers!'})
         }
         // If valid data was sent
         else {
@@ -94,7 +97,7 @@ app.post('/', function(req, res) {
             res.json({'status': 'connected'})
             // Signal to database that customer is active
             var values = {Customer_ID : customer_id, Cart_ID: cart_id, Time_Connected: time_connected};
-            var sql = 'INSERT INTO Active_Customers SET ?';
+            var sql = 'INSERT INTO Active_Customers SET ? ON DUPLICATE KEY UPDATE Customer_ID';
             var query = connection.query(sql, values,
                 function(err, result) {
                     if (err) {
@@ -136,6 +139,7 @@ var recursive_db_check = function() {
                             }
                         }
                     );
+                    break;
                 }
             }
         }
