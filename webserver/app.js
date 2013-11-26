@@ -157,7 +157,7 @@ var recursive_db_check = function() {
     });
 
     // Get the positions of the members and send it to the phones
-    var query = connection.query('SELECT * FROM Cart_Positioning', function(error, rows, fields) {
+    var query = connection.query('SELECT * FROM Cart_Positioning ORDER BY Time', function(error, rows, fields) {
         if (error) {
             throw new Error('Failed');
         }
@@ -168,7 +168,7 @@ var recursive_db_check = function() {
             console.log('From DB: ' + c_id);
             for (var j = 0; j < registration_ids.length; j++) {
                 customer_data = registration_ids[j];
-                if (customer_data['customer_id'] === c_id && customer_data['last_movement'] <= time) {
+                if (customer_data['customer_id'] === c_id && customer_data['last_movement'] < time) {
                     // Send a request so that GCM messages can be utilised
                     customer_data['last_movement'] = time;
                     request.post(
