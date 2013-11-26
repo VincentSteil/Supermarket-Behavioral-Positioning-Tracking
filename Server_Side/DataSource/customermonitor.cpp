@@ -65,7 +65,9 @@ void CCustomerMonitor::process()
                     data.append(cdata, 2);
                     emit Error("INFO: Customer is gone");
                 }
-                emit SendData(data);
+
+                if(data.size() > 0)
+                    emit SendData(data);
             }
             else
                 emit Error("Failed to get customer list");

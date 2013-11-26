@@ -9,6 +9,7 @@
 #include "dbconnection.h"
 #include "config.h"
 #include "errorlog.h"
+#include "deregwidget.h"
 
 class CMainWidget
         : public QWidget
@@ -24,6 +25,7 @@ public slots:
     void SettingsPanel();
     void HandleNewFrameData();
     void ShowErrLog();
+    void ShowDereg();
 
     void ConnectSerial();
     void ConnectDB();
@@ -37,6 +39,7 @@ private:
     CSerialConnection m_serialCon;
     CDBConnection m_dbCon;
     CErrorLog m_errLog;
+    CDeregWidget *m_pdereg;
 };
 
 #endif // MAINWIDGET_H

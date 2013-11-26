@@ -52,11 +52,13 @@ void disable_edge_trigger(void){
     NRF_GPIOTE->INTENCLR  = GPIOTE_INTENCLR_IN0_Clear << GPIOTE_INTENCLR_IN0_Pos;               // Disable the edge triggered interrupt on GPIO2
 }
 
+volatile uint32_t timer_delay;
+
 void GPIOTE_IRQHandler(void)
 {
-    uint32_t timer_delay;
-    if(NRF_GPIOTE->EVENTS_IN[0] == 1){                // Check if GPIO2 being pulled high triggered the interrupt
-        NRF_GPIOTE->EVENTS_IN[0] = 0;                       // Reset interrupt
+    
+    if(NRF_GPIOTE->EVENTS_IN[0] == 1){                            // Check if GPIO2 being pulled high triggered the interrupt
+        NRF_GPIOTE->EVENTS_IN[0] = 0;                             // Reset interrupt
     }
     nrf_gpio_pin_toggle(0);
     
