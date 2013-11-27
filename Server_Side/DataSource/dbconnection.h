@@ -3,7 +3,9 @@
 
 #include <QObject>
 #include <QSqlDatabase>
+#include <QSqlQueryModel>
 #include <QMutex>
+#include <QStringList>
 
 #include <vector>
 
@@ -52,6 +54,11 @@ public:
 
     // returns INVALID_TILE if such tile not found
     TTile GetTile(char nodeIdA, char nodeIdB, char nodeIdC);
+
+    int GetListModel(QSqlQueryModel &model);
+
+public slots:
+    void DeregCustomers(QStringList idsList);
 
 signals:
     void Error(QString err);

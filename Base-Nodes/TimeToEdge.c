@@ -22,7 +22,6 @@ static void timer1_init(void)
     {
         // Do nothing.
     }
-
     
     NRF_TIMER1->MODE        = TIMER_MODE_MODE_Timer;        // Set the timer in Timer Mode  
     NRF_TIMER1->PRESCALER   = 0;                            // Set timer freq to 16 MHz / 2^0 -> 0.0625us    

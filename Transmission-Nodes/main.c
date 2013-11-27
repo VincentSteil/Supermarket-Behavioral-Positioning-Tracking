@@ -49,7 +49,7 @@ int main(){
     if(timer_cycle_count == 0){
         send_pulse();
         LED_counter++;
-        if(LED_counter >= 2){
+        if(LED_counter >= 10){
             nrf_gpio_pin_toggle(0);                                // Toggle Pin11 -> GPIO2
             LED_counter = 0;
         }

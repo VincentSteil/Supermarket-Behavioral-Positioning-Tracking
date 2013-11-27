@@ -3,6 +3,7 @@ BOARD := BOARD_RESPECK
 C_SOURCE_FILES += main.c
 
 C_SOURCE_FILES += simple_uart.c
+C_SOURCE_FILES += 40kHz_pulse.c
 
 OUTPUT_FILENAME		:= gpio-test
 SDK_PATH			:= ../nrf51_sdk/

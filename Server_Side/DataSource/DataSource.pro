@@ -22,7 +22,9 @@ SOURCES += main.cpp\
     posdataworker.cpp \
     errorlog.cpp \
     customerlist.cpp \
-    mocserialport.cpp
+    mocserialport.cpp \
+    customerlistwidget.cpp \
+    deregwidget.cpp
 
 HEADERS  += mainwindow.h \
     settingsdialog.h \
@@ -36,9 +38,12 @@ HEADERS  += mainwindow.h \
     posdataworker.h \
     errorlog.h \
     customerlist_shared.h \
-    mocserialport.h
+    mocserialport.h \
+    customerlistwidget.h \
+    deregwidget.h
 
 FORMS    += mainwindow.ui \
     settingsdialog.ui \
     errorlog.ui \
-    mainwidget.ui
+    mainwidget.ui \
+    dereg.ui
