@@ -39,10 +39,6 @@ uint8_t LED_counter = 0;
 int main(){
   NVIC_EnableIRQ(TIMER1_IRQn);
   __enable_irq();
-
-//  nrf_gpio_cfg_output(12);
-//  nrf_gpio_pin_write(12, 1);
-//  simple_uart_config(0, 23, 0, 22, 0);
   nrf_gpio_cfg_output(0);
   nrf_gpio_pin_write(0,1);
 
