@@ -44,6 +44,7 @@ int main(){
 
   OutPin_Init();
   timer1_init();
+ 
   send_pulse();
   timer_cycle_count++;
   while (1) {
@@ -51,7 +52,7 @@ int main(){
         send_pulse();
         LED_counter++;
         if(LED_counter >= 10){
-            nrf_gpio_pin_toggle(0);                                // Toggle Pin11 -> GPIO2
+            nrf_gpio_pin_toggle(0);                                // Toggle Pin02
             LED_counter = 0;
         }
     }

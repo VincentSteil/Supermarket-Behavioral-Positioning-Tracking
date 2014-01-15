@@ -10,9 +10,9 @@
 #include "nrf_gpio.h"
 #include "math.h"
 #include "nrf_gpiote.h"
-#include "TimeToEdge.c"
+#include "TimeToEdge.h"
 
-static void timer1_init(void)
+void timer1_init(void)
 {
         
     NRF_CLOCK->EVENTS_HFCLKSTARTED  = 0;                    // Start 16 MHz crystal oscillator
@@ -34,7 +34,7 @@ void timer1_start(void){
     NRF_TIMER1->TASKS_START = 1;                            // Start timer1
 }
 
-static void gpio_init(void)
+void gpio_init(void)
 {
     nrf_gpio_cfg_input(11, NRF_GPIO_PIN_PULLDOWN);
 
@@ -42,6 +42,7 @@ static void gpio_init(void)
 
     nrf_gpiote_event_config(0, 11, NRF_GPIOTE_POLARITY_TOGGLE); // Channel[0], Pin11 (GPIO2), interrupt on toggle 
 }
+
 
 void enable_edge_trigger(void){  
     NRF_GPIOTE->INTENSET  = GPIOTE_INTENSET_IN0_Set << GPIOTE_INTENSET_IN0_Pos;                 // Enable the edge triggered interrupt on GPIO2
@@ -55,11 +56,12 @@ volatile uint32_t timer_delay;
 
 void GPIOTE_IRQHandler(void)
 {
-    
     if(NRF_GPIOTE->EVENTS_IN[0] == 1){                            // Check if GPIO2 being pulled high triggered the interrupt
         NRF_GPIOTE->EVENTS_IN[0] = 0;                             // Reset interrupt
     }
-    nrf_gpio_pin_toggle(0);
+
+    
+    nrf_gpio_pin_set(0);
     
     NRF_TIMER1->TASKS_CAPTURE[0]  = 1;                            // Write time delay to CC[0] register
     NRF_TIMER1->TASKS_STOP        = 1;                            // Stop Timer1 

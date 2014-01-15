@@ -7,6 +7,7 @@
 #include "math.h"
 #include "simple_uart.h"
 #include "nrf_gpiote.h"
+#include "TimeToEdge.h"
 
 // Debug helper variables
 static volatile bool init_ok, enable_ok, push_ok, pop_ok, tx_success;
@@ -37,91 +38,25 @@ void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p
 }
 
 
-/** @brief Function for initializing Timer 0.
- */
-static void timer1_init(void)
-{
-        
-    NRF_CLOCK->EVENTS_HFCLKSTARTED  = 0;                    // Start 16 MHz crystal oscillator
-    NRF_CLOCK->TASKS_HFCLKSTART     = 1;
 
-    while (NRF_CLOCK->EVENTS_HFCLKSTARTED == 0)             // Wait for the external oscillator to start up
-    {
-        // Do nothing.
-    }
-
-    
-    NRF_TIMER1->MODE        = TIMER_MODE_MODE_Timer;          // Set the timer in Timer Mode   
-    NRF_TIMER1->PRESCALER   = 0;                              // Set timer freq to 16 MHz / 2^0 -> 0.0625us    
-    NRF_TIMER1->BITMODE     = TIMER_BITMODE_BITMODE_32Bit;      // 32-bit mode
-
-}
-
-void timer1_start(void){
-    NRF_TIMER1->TASKS_CLEAR = 1;                            // Clear timer1
-    NRF_TIMER1->TASKS_START = 1;                            // Start timer1
-}
-
-static void gpio_init(void)
-{
-    nrf_gpio_cfg_input(11, NRF_GPIO_PIN_PULLDOWN);
-
-    NVIC_EnableIRQ(GPIOTE_IRQn);                            // Enable interrupt:
-
-    nrf_gpiote_event_config(0, 11, NRF_GPIOTE_POLARITY_TOGGLE);
-}
-
-void enable_edge_trigger(void){  
-    NRF_GPIOTE->INTENSET  = GPIOTE_INTENSET_IN0_Set << GPIOTE_INTENSET_IN0_Pos;                 // Enable the edge triggered interrupt on GPIO2
-}
-
-void disable_edge_trigger(void){  
-    NRF_GPIOTE->INTENCLR  = GPIOTE_INTENCLR_IN0_Clear << GPIOTE_INTENCLR_IN0_Pos;                 // Disable the edge triggered interrupt on GPIO2
-}
-
-void GPIOTE_IRQHandler(void)
-{
-//    unsigned char buf[32];
-    if (NRF_GPIOTE->EVENTS_IN[0] == 1)                  // Check if GPIO2 being toggled triggered the interrupt
-    {
-        NRF_GPIOTE->EVENTS_IN[0] = 0;                       // Reset interrupt
-    }
-    nrf_gpio_pin_toggle(0);
-    uint32_t timer_delay;
-    
-    NRF_TIMER1->TASKS_CAPTURE[0]  = 1;                            // Write time delay to CC[0] register
-    NRF_TIMER1->TASKS_STOP        = 1;                            // Stop Timer1 
-    timer_delay                   = NRF_TIMER1->CC[0];            // Copy CC[0] register to timer_delay
-//    sprintf((char*)buf, "timer_delay: %u\n", timer_delay);
-//    simple_uart_putstring(buf);
-    disable_edge_trigger();
-    // TRIGGER FUNTION TO SEND OUT DATA  
-    
-
-    enable_edge_trigger();
-//    timer1_start();
-}
-
-void start_waiting_for_edge(void){
-    timer1_start();
-    enable_edge_trigger();
-}
 
 
 int main(){
-
+  uint32_t LED_counter = 0;
   NVIC_EnableIRQ(GPIOTE_IRQn);
   __enable_irq();
 
-//  simple_uart_config(0, 23, 0, 22, 0);
-  nrf_gpio_cfg_output(0);
-
-  
+  nrf_gpio_cfg_output(0); 
   gpio_init();
   timer1_init();
   enable_edge_trigger();
   
   while (1) {
-
+    LED_counter++;
+    if (LED_counter > 500000){
+        LED_counter = 0;
+        nrf_gpio_pin_clear(0);
+        enable_edge_trigger();
+    }
   }
 }

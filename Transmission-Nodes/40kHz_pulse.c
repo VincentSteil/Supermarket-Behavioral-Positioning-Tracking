@@ -69,4 +69,20 @@ void send_pulse(void){
     NRF_TIMER1->TASKS_START     = 1;                            // Start timer1
 }
 
+void gpio_init_sync_test(void)
+{
+    nrf_gpio_cfg_input(12, NRF_GPIO_PIN_PULLDOWN);
 
+    NVIC_EnableIRQ(GPIOTE_IRQn);                                // Enable interrupt:
+
+    nrf_gpiote_event_config(0, 12, NRF_GPIOTE_POLARITY_LOTOHI); // Channel[0], Pin12 (GPIO2), interrupt on toggle 
+}
+
+void GPIOTE_IRQHandler(void)
+{
+    if(NRF_GPIOTE->EVENTS_IN[0] == 1){                            // Check if GPIO2 being pulled high triggered the interrupt
+        NRF_GPIOTE->EVENTS_IN[0] = 0;                             // Reset interrupt
+        send_pulse();
+    }
+        
+}

@@ -18,3 +18,7 @@ void TIMER1_IRQHandler(void);
 
 // configure GPIO2 (Pin11) as output pin
 void OutPin_Init(void);
+
+extern uint32_t timer_cycle_count;
+
+void gpio_init_sync_test(void);

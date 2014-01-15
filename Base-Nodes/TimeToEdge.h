@@ -4,13 +4,13 @@
 
 
 // initialise timer1 with period 1/16MHz for max resolution
-static void timer1_init(void);
+void timer1_init(void);
 
 // start timer1 measurement
 void timer1_start(void);
 
 // initialise GPIO1
-static void gpio_init(void);
+void gpio_init(void);
 
 // get ready to trigger on incoming edge
 void enable_edge_trigger(void);
