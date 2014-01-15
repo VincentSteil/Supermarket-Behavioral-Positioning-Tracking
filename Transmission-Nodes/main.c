@@ -1,25 +1,7 @@
-/* Copyright (c) 2009 Nordic Semiconductor. All Rights Reserved.
- *
- * The information contained herein is property of Nordic Semiconductor ASA.
- * Terms and conditions of usage are described in detail in NORDIC
- * SEMICONDUCTOR STANDARD SOFTWARE LICENSE AGREEMENT.
- *
- * Licensees are granted free, non-transferable use of the information. NO
- * WARRANTY of ANY KIND is provided. This heading must NOT be removed from
- * the file.
- *
- */
+// Vincent Steil
+// University of Edinburgh
+// testing file for the the transmission node to both test the maximum range of the system and for the flight time in the absence of networking delays
 
-/** @file
- * @defgroup nrf_dev_timer_example_main main.c
- * @{
- * @ingroup nrf_dev_timer_example
- * @brief Timer Example Application main file.
- *
- * This file contains the source code for a sample application using Timer0, Timer1 and Timer2.
- *
- * @image html example_board_setup_a.jpg "Use board setup A for this example."
- */
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -43,16 +25,16 @@ int main(){
   nrf_gpio_pin_write(0,1);
 
   OutPin_Init();
-  timer1_init();
- 
+  timer1_init(); 
   send_pulse();
   timer_cycle_count++;
+  gpio_init_sync_test();                                            // uncomment in order to send pulse out on the rising edge of GPIO3
   while (1) {
     if(timer_cycle_count == 0){
-        send_pulse();
+        send_pulse();                                               // when testing the timing function, comment this line out
         LED_counter++;
         if(LED_counter >= 10){
-            nrf_gpio_pin_toggle(0);                                // Toggle Pin02
+            nrf_gpio_pin_toggle(0);                                 // Toggle Pin02
             LED_counter = 0;
         }
     }

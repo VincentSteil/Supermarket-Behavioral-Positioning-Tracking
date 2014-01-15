@@ -1,3 +1,8 @@
+// Vincent Steil
+// main.c
+// University of Edinburgh
+// debug main.c file that flashes the Prospekz LED on an incoming edge to GPIO2 (pin11)
+
 #include <stdint.h>
 #include <stdlib.h>
 #include <math.h>
