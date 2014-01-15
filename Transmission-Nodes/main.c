@@ -45,6 +45,7 @@ int main(){
   OutPin_Init();
   timer1_init();
   send_pulse();
+  timer_cycle_count++;
   while (1) {
     if(timer_cycle_count == 0){
         send_pulse();
