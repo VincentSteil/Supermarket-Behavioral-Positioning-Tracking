@@ -17,7 +17,7 @@ void OutPin_Init(void){
     nrf_gpio_cfg_output(11);
 }
 
-static void timer1_init(void){
+void timer1_init(void){
         
     NRF_CLOCK->EVENTS_HFCLKSTARTED  = 0;                    // Start 16 MHz crystal oscillator
     NRF_CLOCK->TASKS_HFCLKSTART     = 1;
