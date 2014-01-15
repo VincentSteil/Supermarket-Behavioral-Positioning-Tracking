@@ -46,8 +46,8 @@ void timer1_init(void){
 
 }
 
-uint8_t timer_cycle_count = 0;
-uint8_t timer_cycle_count_limit = 80;                       // 1ms pwm pulse
+uint32_t timer_cycle_count = 0;
+uint32_t timer_cycle_count_limit = 8000;                       // 140ms pwm pulse
 
 void TIMER1_IRQHandler(void){
 
