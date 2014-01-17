@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/shopping_cart.png</file>
+    </qresource>
+</RCC>

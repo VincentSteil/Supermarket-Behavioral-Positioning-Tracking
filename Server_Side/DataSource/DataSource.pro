@@ -47,3 +47,6 @@ FORMS    += mainwindow.ui \
     errorlog.ui \
     mainwidget.ui \
     dereg.ui
+
+RESOURCES += \
+    res.qrc

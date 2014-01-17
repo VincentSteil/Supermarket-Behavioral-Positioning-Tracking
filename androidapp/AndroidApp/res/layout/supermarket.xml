@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+    android:id="@+id/supermarketLinLayout">
+    
+    <LinearLayout
+        android:id="@+id/supermarketLinLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+    
+	    <Button
+	        android:id="@+id/previousStep"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="114dp"
+	        android:layout_height="wrap_content"
+	        android:text="Prev Step"
+	        android:textColor="#000000" />
+	        
+	    <Button
+	        android:id="@+id/ExitFromSupermarket"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="93dp"
+	        android:layout_height="wrap_content"
+	        android:text="EXIT"
+	        android:textColor="#000000" />
+	    
+		<Button
+		    android:id="@+id/nextStep"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="113dp"
+		    android:layout_height="wrap_content"
+		    android:text="Next Step"
+		    android:textColor="#000000" />
+    
+	</LinearLayout>
+    
+    <View
+        android:id="@+id/supermarketMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>

@@ -1,3 +1,0 @@
-<div>
-    <p>Number of users connected: <%- registration_ids.length %> </p>
-</div>
