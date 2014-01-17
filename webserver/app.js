@@ -70,7 +70,7 @@ app.get('/admin', function(req, res) {
 
 // Function that gets post data from Google upon device registration
 app.post('/', function(req, res) {
-    if(req.body && req.body.regId && req.body.trolleyId) {
+    if(req.body && req.body.regId && req.body.trolleyId && req.body.memId) {
         // Retrieve JSON data about customer
         var reg_id = req.body.regId;
         var cart_id = parseInt(req.body.trolleyId, 10);
@@ -132,8 +132,8 @@ app.post('/', function(req, res) {
         } // end else when input is valid
     }
     else {
-        console.log('No registration ID received');
-        res.json({'error': 'No registration ID received'});
+        console.log('No registration ID/ cart ID/ membership ID received');
+        res.json({'error': 'No registration ID/ cart ID/ membership ID received'});
     }
 });
 
@@ -161,28 +161,26 @@ var recursive_db_check = function() {
         if (error) {
             throw new Error('Failed');
         }
-
+        message = new gcm.Message();
         for (var i = 0; i < rows.length; i++) {
             var c_id = rows[i].Customer_ID;
             var time = rows[i].Time;
             console.log('From DB: ' + c_id);
+
             for (var j = 0; j < registration_ids.length; j++) {
                 customer_data = registration_ids[j];
                 if (customer_data['customer_id'] === c_id && customer_data['last_movement'] < time) {
                     // Send a request so that GCM messages can be utilised
                     customer_data['last_movement'] = time;
-                    request.post(
-                        'http://www.raduoprescu.comxa.com/send_push_notification_message.php',
-                        { form: {regId: customer_data['reg_id'], message: rows[i].X+' '+rows[i].Y} },
-                        function (error, response, body) {
-                            if (!error && response.statusCode == 200) {
-                                console.log('Message sent to user: ');
-                            }
-                            else {
-                                throw error;
-                            }
-                        }
-                    );
+                    message.addDataWithObject({
+ -                        title: 'Position',
+ -                        x: rows[i].X,
+ -                        y: rows[i].Y
+ -                    });
+ -
+ -                    sender.send(message, [customer_data['reg_id']], 4, function(result) {
+ -                        console.log(result);
+ -                    });
                 }
             }
         }
