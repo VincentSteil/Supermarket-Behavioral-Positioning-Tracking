@@ -67,11 +67,11 @@ void GPIOTE_IRQHandler(void)
     }
 
     
-    nrf_gpio_pin_set(0);
+    nrf_gpio_pin_toggle(0);
     
     NRF_TIMER1->TASKS_CAPTURE[0]  = 1;                                                      // Write time delay to CC[0] register
-    NRF_TIMER1->TASKS_STOP        = 1;                                                      // Stop Timer1 
     timer_delay                   = NRF_TIMER1->CC[0];                                      // Copy CC[0] register to timer_delay
+    NRF_TIMER1->TASKS_STOP        = 1;                                                      // Stop Timer1 
     disable_edge_trigger();
     // TRIGGER FUNCTION TO SEND OUT DATA timer_delay
     

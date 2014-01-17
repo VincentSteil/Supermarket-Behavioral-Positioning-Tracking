@@ -1,0 +1,1234 @@
+Archive member included because of file (symbol)
+
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                              _build/main.o (memcpy)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                              _build/app_gpiote.o (memset)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+                              _build/main.o (sprintf)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o) (_impure_ptr)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_malloc_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (memchr)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (_Balloc)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__fpclassifyd)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o) (strcmp)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (strlen)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o) (_calloc_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (_free_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o) (memmove)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o) (_realloc_r)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o) (errno)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_idiv)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dadd)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_ddiv)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__gedf2)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__ledf2)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_i2d)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_ui2d)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o) (__clzsi2)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__aeabi_lmul)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__divdi3)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__udivdi3)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                              (__cs3_start_c)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o) (_sbrk)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+                              (_start)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o) (__errno)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o) (__libc_init_array)
+/afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+                              /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o) (__cs3_heap_limit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+_dbg_debugBuffer    0x80              _build/debug_helper.o
+gbtnsDataPtr        0x4               _build/main.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .debug_macro   0x00000000      0x808 _build/uart.o
+ .debug_macro   0x00000000      0x214 _build/uart.o
+ .debug_macro   0x00000000       0x16 _build/uart.o
+ .debug_macro   0x00000000       0x22 _build/uart.o
+ .debug_macro   0x00000000       0x2e _build/uart.o
+ .debug_macro   0x00000000      0x372 _build/uart.o
+ .debug_macro   0x00000000       0x10 _build/uart.o
+ .debug_macro   0x00000000      0x1d2 _build/uart.o
+ .debug_macro   0x00000000     0x657d _build/uart.o
+ .debug_macro   0x00000000      0x848 _build/uart.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .debug_macro   0x00000000      0x808 _build/app_fifo.o
+ .debug_macro   0x00000000      0x214 _build/app_fifo.o
+ .debug_macro   0x00000000       0x3a _build/app_fifo.o
+ .debug_macro   0x00000000       0x2e _build/app_fifo.o
+ .debug_macro   0x00000000       0x95 _build/app_fifo.o
+ .debug_macro   0x00000000       0x10 _build/app_fifo.o
+ .debug_macro   0x00000000       0x3a _build/app_fifo.o
+ .debug_macro   0x00000000       0x52 _build/app_fifo.o
+ .debug_macro   0x00000000       0x19 _build/app_fifo.o
+ .debug_macro   0x00000000      0x16d _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x8e _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x22 _build/app_fifo.o
+ .debug_macro   0x00000000       0x2e _build/app_fifo.o
+ .debug_macro   0x00000000      0x372 _build/app_fifo.o
+ .debug_macro   0x00000000       0x10 _build/app_fifo.o
+ .debug_macro   0x00000000      0x1d2 _build/app_fifo.o
+ .debug_macro   0x00000000       0x22 _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x73 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x808 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x214 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x22 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x22 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x2e _build/app_gpiote.o
+ .debug_macro   0x00000000      0x372 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x10 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x1d2 _build/app_gpiote.o
+ .debug_macro   0x00000000     0x657d _build/app_gpiote.o
+ .debug_macro   0x00000000      0x848 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x8e _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x73 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x3a _build/app_gpiote.o
+ .debug_macro   0x00000000       0x2e _build/app_gpiote.o
+ .debug_macro   0x00000000       0x95 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x10 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x100 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x3a _build/app_gpiote.o
+ .debug_macro   0x00000000       0x52 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x19 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x16d _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x29 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x808 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x214 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x16 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x22 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x2e _build/system_nrf51.o
+ .debug_macro   0x00000000      0x372 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x10 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x1d2 _build/system_nrf51.o
+ .debug_macro   0x00000000     0x657d _build/system_nrf51.o
+ .debug_macro   0x00000000      0x848 _build/system_nrf51.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+LOAD _build/main.o
+LOAD _build/app_timer.o
+LOAD _build/uart.o
+LOAD _build/app_fifo.o
+LOAD _build/app_gpiote.o
+LOAD _build/TimeToEdge.o
+LOAD _build/debug_helper.o
+LOAD _build/buttons_handler.o
+LOAD _build/system_nrf51.o
+LOAD _build/gcc_startup_nrf51.o
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libm.a
+START GROUP
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+START GROUP
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a
+LOAD /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a
+END GROUP
+                0x20000a18                PROVIDE (__cs3_heap_start, _end)
+                0x20004000                PROVIDE (__cs3_heap_end, (__cs3_region_start_ram + __cs3_region_size_ram))
+                0x00000001                PROVIDE (__cs3_region_num, ((__cs3_regions_end - __cs3_regions) / 0x14))
+                0x20004000                PROVIDE (__cs3_stack, (__cs3_region_start_ram + __cs3_region_size_ram))
+
+.text           0x00000000     0x9df8
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                __cs3_region_start_rom = .
+ *(.cs3.region-head.rom)
+                0x00000001                ASSERT ((. == __cs3_region_start_rom), .cs3.region-head.rom not permitted)
+                0x00000000                __cs3_interrupt_vector = __cs3_interrupt_vector_cortex_m
+ *(.cs3.interrupt_vector)
+ .cs3.interrupt_vector
+                0x00000000       0xc0 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_interrupt_vector_cortex_m
+                0x00000001                ASSERT ((. != __cs3_interrupt_vector_cortex_m), No interrupt vector)
+                0x000000c0                PROVIDE (__cs3_reset, __cs3_reset_cortex_m)
+ *(.cs3.reset)
+ .cs3.reset     0x000000c0       0x20 _build/gcc_startup_nrf51.o
+                0x000000c0                __cs3_reset_cortex_m
+                0x00000130                PROVIDE (__cs3_start_asm, _start)
+ *(.text.cs3.init)
+ .text.cs3.init
+                0x000000e0       0x50 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                0x000000e0                __cs3_start_c
+ .text.cs3.init
+                0x00000130       0x10 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+                0x00000130                _start
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000140        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .text          0x00000140       0xbc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text          0x000001fc      0x270 _build/main.o
+                0x0000028c                app_error_handler
+                0x000002c0                GPIOTE_IRQHandler
+                0x000002dc                hfclkInit
+                0x0000035c                main
+ .text          0x0000046c     0x1344 _build/app_timer.o
+                0x000013a0                RTC1_IRQHandler
+                0x000013ec                SWI0_IRQHandler
+                0x000013f8                app_timer_init
+                0x00001568                app_timer_create
+                0x00001658                app_timer_start
+                0x000016e4                app_timer_stop
+                0x00001744                app_timer_stop_all
+                0x0000176c                app_timer_cnt_get
+                0x00001788                app_timer_cnt_diff_compute
+ .text          0x000017b0      0x2f4 _build/uart.o
+                0x00001828                uart_put
+                0x00001864                uart_get_nb
+                0x000018c4                uart_get
+                0x00001920                uart_config
+                0x000019d8                uart_putstring
+                0x00001a0c                uart_putstring_nonl
+                0x00001a34                UART0_IRQHandler
+ .text          0x00001aa4      0x10c _build/app_fifo.o
+                0x00001aa4                app_fifo_init
+                0x00001b00                app_fifo_put
+                0x00001b50                app_fifo_get
+                0x00001b94                app_fifo_flush
+ .text          0x00001bb0      0x710 _build/app_gpiote.o
+                0x00001db8                app_GPIOTE_IRQHandler
+                0x00001f1c                app_gpiote_init
+                0x00001fc0                app_gpiote_user_register
+                0x0000208c                app_gpiote_user_enable
+                0x000021e4                app_gpiote_user_disable
+                0x0000225c                app_gpiote_pins_state_get
+ .text          0x000022c0      0x470 _build/TimeToEdge.o
+                0x00002524                timer1_init
+                0x000025b0                gpio_init
+                0x00002624                TIMER1_IRQHandler
+                0x00002654                tte_gpioteIrqHandler
+                0x00002720                start_waiting_for_edge
+ .text          0x00002730       0x28 _build/debug_helper.o
+                0x00002730                dbg_defaultFct
+                0x00002740                dbg_setDebugFct
+ .text          0x00002758      0x328 _build/buttons_handler.o
+                0x0000281c                btns_init
+                0x00002874                btns_addGpioteBtn
+                0x00002920                btns_rmGpioteBtn
+                0x000029c8                btns_gpioTeHandler
+ .text          0x00002a80       0x4c _build/system_nrf51.o
+                0x00002a80                SystemInit
+                0x00002ab4                SystemCoreClockUpdate
+ .text          0x00002acc        0xc _build/gcc_startup_nrf51.o
+                0x00002acc                NMI_Handler
+                0x00002ace                HardFault_Handler
+                0x00002ad0                SVC_Handler
+                0x00002ad2                PendSV_Handler
+                0x00002ad4                SysTick_Handler
+                0x00002ad6                TIMER2_IRQHandler
+                0x00002ad6                SPI0_TWI0_IRQHandler
+                0x00002ad6                RTC0_IRQHandler
+                0x00002ad6                POWER_CLOCK_IRQHandler
+                0x00002ad6                RADIO_IRQHandler
+                0x00002ad6                SWI4_IRQHandler
+                0x00002ad6                TEMP_IRQHandler
+                0x00002ad6                QDEC_IRQHandler
+                0x00002ad6                SWI5_IRQHandler
+                0x00002ad6                WUCOMP_COMP_IRQHandler
+                0x00002ad6                TIMER0_IRQHandler
+                0x00002ad6                ECB_IRQHandler
+                0x00002ad6                Default_Handler
+                0x00002ad6                ADC_IRQHandler
+                0x00002ad6                SWI3_IRQHandler
+                0x00002ad6                CCM_AAR_IRQHandler
+                0x00002ad6                WDT_IRQHandler
+                0x00002ad6                SWI2_IRQHandler
+                0x00002ad6                RNG_IRQHandler
+                0x00002ad6                SPI1_TWI1_IRQHandler
+                0x00002ad6                SWI1_IRQHandler
+ .text          0x00002ad8      0x108 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x00002ad8                memcpy
+ .text          0x00002be0       0x94 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x00002be0                memset
+ .text          0x00002c74       0x84 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+                0x00002c74                _sprintf_r
+                0x00002cb4                sprintf
+ .text          0x00002cf8     0x1478 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                0x00002cf8                _svfprintf_r
+ .text          0x00004170     0x10b8 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                0x000042c4                _dtoa_r
+ .text          0x00005228        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .text          0x00005228       0x98 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x00005228                _setlocale_r
+                0x0000526c                __locale_charset
+                0x00005274                __locale_mb_cur_max
+                0x00005280                __locale_msgcharset
+                0x0000528c                __locale_cjk_lang
+                0x00005290                _localeconv_r
+                0x0000529c                setlocale
+                0x000052b4                localeconv
+ .text          0x000052c0      0x514 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x000052c0                _malloc_r
+ .text          0x000057d4       0x90 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+                0x000057d4                memchr
+ .text          0x00005864        0x8 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+                0x00005864                __malloc_lock
+                0x00005868                __malloc_unlock
+ *fill*         0x0000586c        0x4 
+ .text          0x00005870      0x930 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                0x00005870                _Balloc
+                0x000058c0                _Bfree
+                0x000058d8                __multadd
+                0x00005980                __s2b
+                0x00005a18                __hi0bits
+                0x00005a50                __lo0bits
+                0x00005aac                __i2b
+                0x00005ac0                __multiply
+                0x00005c20                __pow5mult
+                0x00005ccc                __lshift
+                0x00005d98                __mcmp
+                0x00005dd0                __mdiff
+                0x00005ebc                __ulp
+                0x00005f00                __b2d
+                0x00005fa0                __d2b
+                0x00006054                __ratio
+                0x000060c4                _mprec_log10
+                0x00006104                __copybits
+                0x00006148                __any_on
+ .text          0x000061a0       0x58 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+                0x000061a0                __fpclassifyd
+ .text          0x000061f8       0x24 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+                0x000061f8                _sbrk_r
+ .text          0x0000621c       0x14 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+                0x0000621c                strcmp
+ .text          0x00006230       0x10 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                0x00006230                strlen
+ .text          0x00006240      0xbe4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+                0x00006240                __ssprint_r
+                0x00006368                _svfiprintf_r
+ .text          0x00006e24       0x60 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+                0x00006e24                _calloc_r
+ .text          0x00006e84      0x230 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+                0x00006e84                _malloc_trim_r
+                0x00006f24                _free_r
+ .text          0x000070b4       0xac /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+                0x000070b4                memmove
+ .text          0x00007160      0x3dc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+                0x00007160                _realloc_r
+ .text          0x0000753c       0xfc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                0x0000753c                cleanup_glue
+                0x00007558                _reclaim_reent
+                0x000075f4                _wrapup_reent
+ .text          0x00007638       0x9c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x00007638                __udivsi3
+                0x00007638                __aeabi_uidiv
+                0x000076c0                __aeabi_uidivmod
+ .text          0x000076d4       0xc0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+                0x000076d4                __aeabi_idiv
+                0x000076d4                __divsi3
+                0x00007780                __aeabi_idivmod
+ .text          0x00007794        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x00007794                __aeabi_ldiv0
+                0x00007794                __aeabi_idiv0
+ .text          0x00007798       0x7c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x00007798                __aeabi_cdrcmple
+                0x000077a8                __aeabi_cdcmple
+                0x000077a8                __aeabi_cdcmpeq
+                0x000077b8                __aeabi_dcmpeq
+                0x000077c4                __aeabi_dcmplt
+                0x000077d8                __aeabi_dcmple
+                0x000077ec                __aeabi_dcmpgt
+                0x00007800                __aeabi_dcmpge
+ .text          0x00007814       0x40 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00007814                __aeabi_uldivmod
+ .text          0x00007854       0x74 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+                0x00007854                __gnu_ldivmod_helper
+                0x00007890                __gnu_uldivmod_helper
+ .text          0x000078c8      0x778 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+                0x000078c8                __aeabi_dadd
+ .text          0x00008040      0x5bc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+                0x00008040                __aeabi_ddiv
+ .text          0x000085fc       0x7c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+                0x000085fc                __eqdf2
+                0x000085fc                __nedf2
+ .text          0x00008678       0xe0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+                0x00008678                __gtdf2
+                0x00008678                __gedf2
+ .text          0x00008758       0xbc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+                0x00008758                __ltdf2
+                0x00008758                __ledf2
+ .text          0x00008814      0x4dc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                0x00008814                __aeabi_dmul
+ .text          0x00008cf0      0x708 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+                0x00008cf0                __aeabi_dsub
+ .text          0x000093f8       0x68 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+                0x000093f8                __aeabi_d2iz
+ .text          0x00009460       0x78 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+                0x00009460                __aeabi_i2d
+ .text          0x000094d8       0x6c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+                0x000094d8                __aeabi_ui2d
+ .text          0x00009544       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+                0x00009544                __clzsi2
+ .text          0x00009580       0x44 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+                0x00009580                __aeabi_lmul
+                0x00009580                __muldi3
+ .text          0x000095c4      0x3d8 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                0x000095c4                __divdi3
+ .text          0x0000999c      0x39c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                0x0000999c                __udivdi3
+ .text          0x00009d38        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .text          0x00009d38        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .text          0x00009d38       0x34 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                0x00009d38                __cs3_premain
+ .text          0x00009d6c       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+                0x00009d6c                _sbrk
+ .text          0x00009da8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .text          0x00009da8        0xc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                0x00009da8                __errno
+ .text          0x00009db4       0x44 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                0x00009db4                __libc_init_array
+ .text          0x00009df8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.cs3.reset
+                0x00009df8        0x0 _build/gcc_startup_nrf51.o
+ .ARM.extab     0x00009df8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00009df8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ *(.gcc_except_table)
+
+.v4_bx          0x00009df8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00009df8        0x0
+ .iplt          0x00000000        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00009df8        0x4
+ *(.eh_frame)
+ .eh_frame      0x00009df8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .eh_frame      0x00009df8        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+                0x00009dfc                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00009dfc        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.cs3.reset
+                0x00009dfc        0x8 _build/gcc_startup_nrf51.o
+ .ARM.exidx     0x00009e04        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00009e04        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x00009e04                PROVIDE (__exidx_end, .)
+
+.rel.dyn        0x00009e04        0x0
+ .rel.iplt      0x00000000        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.rodata         0x00009e08      0x608
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00009e08       0x54 _build/main.o
+ .rodata        0x00009e5c       0x2c _build/app_timer.o
+ .rodata        0x00009e88       0x14 _build/uart.o
+ .rodata        0x00009e9c       0x28 _build/TimeToEdge.o
+ .rodata        0x00009ec4      0x184 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x0000a048       0x42 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x0000a08a        0x2 
+ .rodata.str1.4
+                0x0000a08c       0x10 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x0000a09c        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x0000a09c                _global_impure_ptr
+ .rodata.str1.4
+                0x0000a0a0        0x2 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0000a0a2        0x2 
+ .rodata.str1.4
+                0x0000a0a4        0xc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x0000a0b0      0x128 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                0x0000a0c0                __mprec_tens
+                0x0000a188                __mprec_tinytens
+                0x0000a1b0                __mprec_bigtens
+ .rodata        0x0000a1d8      0x184 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x00000000       0x30 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .rodata        0x0000a35c       0x40 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .rodata        0x0000a39c       0x40 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                0x0000a3dc                . = ALIGN (0x4)
+ *(.init)
+ .init          0x0000a3dc        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x0000a3dc                _init
+ .init          0x0000a3e0        0x8 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x0000a3e8                . = ALIGN (0x4)
+                0x0000a3e8                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000a3e8                __preinit_array_end = .
+                0x0000a3e8                . = ALIGN (0x4)
+                0x0000a3e8                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000a3e8        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+                0x0000a3ec                __init_array_end = .
+                0x0000a3ec                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x0000a3ec        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x0000a3ec                _fini
+ .fini          0x0000a3f0        0x8 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x0000a3f8                . = ALIGN (0x4)
+                0x0000a3f8                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x0000a3f8        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0000a3fc                __fini_array_end = .
+                0x0000a3fc                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000a3fc                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000a3fc                . = ALIGN (0x4)
+                0x0000a3fc                __cs3_regions = .
+                0x0000a3fc        0x4 LONG 0x0
+                0x0000a400        0x4 LONG 0xa410 __cs3_region_init_ram
+                0x0000a404        0x4 LONG 0x20000000 __cs3_region_start_ram
+                0x0000a408        0x4 LONG 0x8d8 __cs3_region_init_size_ram
+                0x0000a40c        0x4 LONG 0x140 __cs3_region_zero_size_ram
+                0x0000a410                __cs3_regions_end = .
+                0x0000a410                . = ALIGN (0x8)
+ *(.rom)
+ *(.rom.b .bss.rom)
+                0x0000a410                _etext = .
+                0x00040000                __cs3_region_end_rom = (__cs3_region_start_rom + 0x40000)
+                0x00040000                __cs3_region_size_rom = 0x40000
+
+.data           0x20000000      0x8d8 load address 0x0000a410
+                0x20000000                __cs3_region_start_ram = .
+ *(.cs3.region-head.ram)
+ *(.jcr)
+ .jcr           0x20000000        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .jcr           0x20000000        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x20000004        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x20000004        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+                0x20000004                __dso_handle
+ .data          0x20000008        0x0 _build/main.o
+ .data          0x20000008        0x0 _build/app_timer.o
+ .data          0x20000008        0x0 _build/uart.o
+ .data          0x20000008        0x0 _build/app_fifo.o
+ .data          0x20000008        0x0 _build/app_gpiote.o
+ .data          0x20000008        0x0 _build/TimeToEdge.o
+ .data          0x20000008        0x4 _build/debug_helper.o
+                0x20000008                _dbg_dbgFunction
+ .data          0x2000000c        0x0 _build/buttons_handler.o
+ .data          0x2000000c        0x4 _build/system_nrf51.o
+                0x2000000c                SystemCoreClock
+ .data          0x20000010        0x0 _build/gcc_startup_nrf51.o
+ .data          0x20000010        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .data          0x20000010        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .data          0x20000010        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .data          0x20000010        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .data          0x20000010        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .data          0x20000010      0x430 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x20000010                _impure_ptr
+ .data          0x20000440       0x7c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x20000460                __mb_cur_max
+ .data          0x200004bc      0x410 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x200004bc                __malloc_av_
+                0x200008c4                __malloc_sbrk_base
+                0x200008c8                __malloc_trim_threshold
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .data          0x200008cc        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .data          0x200008cc        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .data          0x200008d0        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .data          0x200008d0        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .data          0x200008d0        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .data          0x200008d0        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+                0x200008d0                __cs3_heap_limit
+                0x200008d8                . = ALIGN (0x8)
+ *fill*         0x200008d4        0x4 
+ *(.ram)
+                0x200008d8                _edata = .
+
+.tm_clone_table
+                0x200008d8        0x0 load address 0x0000ace8
+ .tm_clone_table
+                0x200008d8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .tm_clone_table
+                0x200008d8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+
+.igot.plt       0x200008d8        0x0 load address 0x0000ace8
+ .igot.plt      0x00000000        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.bss            0x200008d8      0x140 load address 0x0000ace8
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200008d8        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .bss           0x200008d8       0x1c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .bss           0x200008f4        0x1 _build/main.o
+                0x200008f4                cntr
+ *fill*         0x200008f5        0x3 
+ .bss           0x200008f8       0x28 _build/app_timer.o
+ .bss           0x20000920       0x14 _build/uart.o
+ .bss           0x20000934        0x0 _build/app_fifo.o
+ .bss           0x20000934        0xc _build/app_gpiote.o
+ .bss           0x20000940        0xc _build/TimeToEdge.o
+                0x20000940                timer_delay_ready
+                0x20000948                timer_delay
+ .bss           0x2000094c        0x0 _build/debug_helper.o
+ .bss           0x2000094c        0x4 _build/buttons_handler.o
+ .bss           0x20000950        0x0 _build/system_nrf51.o
+ .bss           0x20000950        0x0 _build/gcc_startup_nrf51.o
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .bss           0x20000950        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .bss           0x20000950        0xc /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x20000950                _PathLocale
+                0x20000954                __mlocale_changed
+                0x20000958                __nlocale_changed
+ .bss           0x2000095c       0x34 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x2000095c                __malloc_top_pad
+                0x20000960                __malloc_current_mallinfo
+                0x20000988                __malloc_max_sbrked_mem
+                0x2000098c                __malloc_max_total_mem
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .bss           0x20000990        0x0 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+ *(COMMON)
+ COMMON         0x20000990        0x4 _build/main.o
+                0x20000990                gbtnsDataPtr
+ COMMON         0x20000994       0x80 _build/debug_helper.o
+                0x20000994                _dbg_debugBuffer
+ COMMON         0x20000a14        0x4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                0x20000a14                errno
+                0x20000a18                . = ALIGN (0x8)
+ *(.ram.b .bss.ram)
+                0x20000a18                _end = .
+                0x20000a18                __end = .
+                0x20004000                __cs3_region_end_ram = (__cs3_region_start_ram + 0x4000)
+                0x00004000                __cs3_region_size_ram = 0x4000
+                0x0000a410                __cs3_region_init_ram = LOADADDR (.data)
+                0x000008d8                __cs3_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000140                __cs3_region_zero_size_ram = (_end - _edata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 _build/app_timer.o
+ .debug_aranges
+                0x00000020       0x20 _build/uart.o
+ .debug_aranges
+                0x00000040       0x20 _build/app_fifo.o
+ .debug_aranges
+                0x00000060       0x20 _build/app_gpiote.o
+ .debug_aranges
+                0x00000080       0x20 _build/system_nrf51.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3283
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d86 _build/app_timer.o
+ .debug_info    0x00001d86      0x87a _build/uart.o
+ .debug_info    0x00002600      0x1e4 _build/app_fifo.o
+ .debug_info    0x000027e4      0x9df _build/app_gpiote.o
+ .debug_info    0x000031c3       0xc0 _build/system_nrf51.o
+
+.debug_abbrev   0x00000000      0x86c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x356 _build/app_timer.o
+ .debug_abbrev  0x00000356      0x1c8 _build/uart.o
+ .debug_abbrev  0x0000051e       0xab _build/app_fifo.o
+ .debug_abbrev  0x000005c9      0x240 _build/app_gpiote.o
+ .debug_abbrev  0x00000809       0x63 _build/system_nrf51.o
+
+.debug_line     0x00000000     0x162b
+ *(.debug_line)
+ .debug_line    0x00000000      0x810 _build/app_timer.o
+ .debug_line    0x00000810      0x279 _build/uart.o
+ .debug_line    0x00000a89      0x445 _build/app_fifo.o
+ .debug_line    0x00000ece      0x538 _build/app_gpiote.o
+ .debug_line    0x00001406      0x225 _build/system_nrf51.o
+
+.debug_frame    0x00000000     0x16f4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x7d4 _build/app_timer.o
+ .debug_frame   0x000007d4      0x14c _build/uart.o
+ .debug_frame   0x00000920       0x90 _build/app_fifo.o
+ .debug_frame   0x000009b0      0x194 _build/app_gpiote.o
+ .debug_frame   0x00000b44       0x48 _build/system_nrf51.o
+ .debug_frame   0x00000b8c       0x38 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000bc4       0x2c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000bf0       0x4c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x00000c3c       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000c78       0x68 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00000ce0       0xa4 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+ .debug_frame   0x00000d84       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000dc0       0x30 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .debug_frame   0x00000df0       0x30 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000e20      0x27c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .debug_frame   0x0000109c       0x28 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x000010c4       0x2c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000010f0       0x20 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00001110       0x20 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001130       0x68 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00001198       0x28 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .debug_frame   0x000011c0       0x54 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .debug_frame   0x00001214       0x30 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .debug_frame   0x00001244       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001280       0x68 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .debug_frame   0x000012e8       0x20 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001308       0x20 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x00001328       0x60 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .debug_frame   0x00001388       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .debug_frame   0x000013c4       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x00001400       0x34 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x00001434       0x34 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x00001468       0x34 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x0000149c       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x000014d8       0x38 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x00001510       0x2c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000153c       0x2c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .debug_frame   0x00001568       0x28 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x00001590       0x30 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .debug_frame   0x000015c0       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x000015fc       0x3c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x00001638       0x48 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .debug_frame   0x00001680       0x28 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .debug_frame   0x000016a8       0x20 /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .debug_frame   0x000016c8       0x2c /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+
+.debug_str      0x00000000    0x2eb3d
+ *(.debug_str)
+ .debug_str     0x00000000    0x2e361 _build/app_timer.o
+                              0x2ee84 (size before relaxing)
+ .debug_str     0x0002e361      0x268 _build/uart.o
+                              0x298da (size before relaxing)
+ .debug_str     0x0002e5c9       0xf4 _build/app_fifo.o
+                               0x7671 (size before relaxing)
+ .debug_str     0x0002e6bd      0x3eb _build/app_gpiote.o
+                              0x2c6e1 (size before relaxing)
+ .debug_str     0x0002eaa8       0x95 _build/system_nrf51.o
+                              0x294d5 (size before relaxing)
+
+.debug_loc      0x00000000      0xe94
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x898 _build/app_timer.o
+ .debug_loc     0x00000898      0x224 _build/uart.o
+ .debug_loc     0x00000abc       0xe0 _build/app_fifo.o
+ .debug_loc     0x00000b9c      0x2a0 _build/app_gpiote.o
+ .debug_loc     0x00000e3c       0x58 _build/system_nrf51.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000       0x30
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x30 _build/app_timer.o
+
+.comment        0x00000000       0x30
+ .comment       0x00000000       0x30 _build/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 _build/app_timer.o
+ .comment       0x00000000       0x31 _build/uart.o
+ .comment       0x00000000       0x31 _build/app_fifo.o
+ .comment       0x00000000       0x31 _build/app_gpiote.o
+ .comment       0x00000000       0x31 _build/TimeToEdge.o
+ .comment       0x00000000       0x31 _build/debug_helper.o
+ .comment       0x00000000       0x31 _build/buttons_handler.o
+ .comment       0x00000000       0x31 _build/system_nrf51.o
+
+.stack          0x00000000      0x800
+ .stack         0x00000000      0x800 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_stack_mem
+
+.heap           0x00000000      0x800
+ .heap          0x00000000      0x800 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_heap_start
+                0x00000800                __cs3_heap_end
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x00000048       0x31 _build/main.o
+ .ARM.attributes
+                0x00000079       0x31 _build/app_timer.o
+ .ARM.attributes
+                0x000000aa       0x31 _build/uart.o
+ .ARM.attributes
+                0x000000db       0x31 _build/app_fifo.o
+ .ARM.attributes
+                0x0000010c       0x31 _build/app_gpiote.o
+ .ARM.attributes
+                0x0000013d       0x31 _build/TimeToEdge.o
+ .ARM.attributes
+                0x0000016e       0x31 _build/debug_helper.o
+ .ARM.attributes
+                0x0000019f       0x31 _build/buttons_handler.o
+ .ARM.attributes
+                0x000001d0       0x31 _build/system_nrf51.o
+ .ARM.attributes
+                0x00000201       0x14 _build/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x00000215       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000240       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000026b       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x00000296       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x000002c1       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000002ec       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000317       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x00000342       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000036d       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000398       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000003c3       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000003ee       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x00000419       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000444       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000046f       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000049a       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000004c5       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x000004f0       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000051b       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000546       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000571       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000059c       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000005b9       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000005d6       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000005f3       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000610       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000062d       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000658       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000683       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x000006ae       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x000006d9       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000704       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x0000072f       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x0000075a       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000785       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x000007b0       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x000007db       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000806       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000823       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x0000084e       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000879       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x000008a4       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x000008cf       0x1d /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .ARM.attributes
+                0x000008ec       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .ARM.attributes
+                0x00000917       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .ARM.attributes
+                0x00000942       0x1b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .ARM.attributes
+                0x0000095d       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000988       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000009b3       0x2b /afs/inf.ed.ac.uk/user/s10/s1008380/Desktop/SLIP/arm-2013.05/arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(_build/gpio-test_xxaa.out elf32-littlearm)
+
+.debug_macro    0x00000000     0x8f75
+ .debug_macro   0x00000000      0x269 _build/app_timer.o
+ .debug_macro   0x00000269      0x808 _build/app_timer.o
+ .debug_macro   0x00000a71      0x214 _build/app_timer.o
+ .debug_macro   0x00000c85       0x22 _build/app_timer.o
+ .debug_macro   0x00000ca7       0x3a _build/app_timer.o
+ .debug_macro   0x00000ce1       0x2e _build/app_timer.o
+ .debug_macro   0x00000d0f       0x95 _build/app_timer.o
+ .debug_macro   0x00000da4       0x10 _build/app_timer.o
+ .debug_macro   0x00000db4       0x89 _build/app_timer.o
+ .debug_macro   0x00000e3d       0x10 _build/app_timer.o
+ .debug_macro   0x00000e4d       0x3a _build/app_timer.o
+ .debug_macro   0x00000e87       0x52 _build/app_timer.o
+ .debug_macro   0x00000ed9       0x19 _build/app_timer.o
+ .debug_macro   0x00000ef2      0x16d _build/app_timer.o
+ .debug_macro   0x0000105f       0x10 _build/app_timer.o
+ .debug_macro   0x0000106f       0xf5 _build/app_timer.o
+ .debug_macro   0x00001164       0x22 _build/app_timer.o
+ .debug_macro   0x00001186       0x91 _build/app_timer.o
+ .debug_macro   0x00001217       0x16 _build/app_timer.o
+ .debug_macro   0x0000122d      0x171 _build/app_timer.o
+ .debug_macro   0x0000139e       0x8e _build/app_timer.o
+ .debug_macro   0x0000142c       0x16 _build/app_timer.o
+ .debug_macro   0x00001442       0x16 _build/app_timer.o
+ .debug_macro   0x00001458       0x22 _build/app_timer.o
+ .debug_macro   0x0000147a       0x2e _build/app_timer.o
+ .debug_macro   0x000014a8      0x372 _build/app_timer.o
+ .debug_macro   0x0000181a       0x10 _build/app_timer.o
+ .debug_macro   0x0000182a      0x1d2 _build/app_timer.o
+ .debug_macro   0x000019fc       0x73 _build/app_timer.o
+ .debug_macro   0x00001a6f       0x1c _build/app_timer.o
+ .debug_macro   0x00001a8b       0x40 _build/app_timer.o
+ .debug_macro   0x00001acb       0x10 _build/app_timer.o
+ .debug_macro   0x00001adb       0x35 _build/app_timer.o
+ .debug_macro   0x00001b10       0x16 _build/app_timer.o
+ .debug_macro   0x00001b26       0x23 _build/app_timer.o
+ .debug_macro   0x00001b49     0x657d _build/app_timer.o
+ .debug_macro   0x000080c6       0x10 _build/app_timer.o
+ .debug_macro   0x000080d6      0x848 _build/app_timer.o
+ .debug_macro   0x0000891e       0x40 _build/app_timer.o
+ .debug_macro   0x0000895e       0x42 _build/app_timer.o
+ .debug_macro   0x000089a0       0xa6 _build/uart.o
+ .debug_macro   0x00008a46      0x15d _build/app_fifo.o
+ .debug_macro   0x00008ba3      0x100 _build/app_fifo.o
+ .debug_macro   0x00008ca3       0x29 _build/app_fifo.o
+ .debug_macro   0x00008ccc      0x1b3 _build/app_gpiote.o
+ .debug_macro   0x00008e7f       0x1c _build/app_gpiote.o
+ .debug_macro   0x00008e9b       0x10 _build/app_gpiote.o
+ .debug_macro   0x00008eab       0x12 _build/app_gpiote.o
+ .debug_macro   0x00008ebd       0x1c _build/app_gpiote.o
+ .debug_macro   0x00008ed9       0x9c _build/system_nrf51.o

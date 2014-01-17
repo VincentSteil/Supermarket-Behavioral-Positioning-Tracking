@@ -1,0 +1,1359 @@
+Archive member included because of file (symbol)
+
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                              _build/main.o (memcpy)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                              _build/app_gpiote.o (memset)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+                              _build/main.o (sprintf)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o) (_impure_ptr)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (_malloc_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (memchr)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (_Balloc)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__fpclassifyd)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o) (strcmp)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (strlen)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o) (_calloc_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o) (_free_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o) (memmove)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o) (_realloc_r)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o) (errno)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_idiv)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dadd)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_ddiv)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__gedf2)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__ledf2)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_i2d)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o) (__aeabi_ui2d)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o) (__clzsi2)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__aeabi_lmul)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__divdi3)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o) (__udivdi3)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                              (__cs3_start_c)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o) (_sbrk)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+                              (_start)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o) (__errno)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o) (__libc_init_array)
+/home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+                              /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o) (__cs3_heap_limit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+_dbg_debugBuffer    0x80              _build/debug_helper.o
+gbtnsDataPtr        0x4               _build/main.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/app_timer.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .group         0x00000000        0x8 _build/uart.o
+ .debug_macro   0x00000000      0x808 _build/uart.o
+ .debug_macro   0x00000000      0x214 _build/uart.o
+ .debug_macro   0x00000000       0x16 _build/uart.o
+ .debug_macro   0x00000000       0x22 _build/uart.o
+ .debug_macro   0x00000000       0x2e _build/uart.o
+ .debug_macro   0x00000000      0x372 _build/uart.o
+ .debug_macro   0x00000000       0x10 _build/uart.o
+ .debug_macro   0x00000000      0x1d2 _build/uart.o
+ .debug_macro   0x00000000     0x657d _build/uart.o
+ .debug_macro   0x00000000      0x848 _build/uart.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_fifo.o
+ .debug_macro   0x00000000      0x808 _build/app_fifo.o
+ .debug_macro   0x00000000      0x214 _build/app_fifo.o
+ .debug_macro   0x00000000       0x3a _build/app_fifo.o
+ .debug_macro   0x00000000       0x2e _build/app_fifo.o
+ .debug_macro   0x00000000       0x95 _build/app_fifo.o
+ .debug_macro   0x00000000       0x10 _build/app_fifo.o
+ .debug_macro   0x00000000       0x3a _build/app_fifo.o
+ .debug_macro   0x00000000       0x52 _build/app_fifo.o
+ .debug_macro   0x00000000       0x19 _build/app_fifo.o
+ .debug_macro   0x00000000      0x16d _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x8e _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x22 _build/app_fifo.o
+ .debug_macro   0x00000000       0x2e _build/app_fifo.o
+ .debug_macro   0x00000000      0x372 _build/app_fifo.o
+ .debug_macro   0x00000000       0x10 _build/app_fifo.o
+ .debug_macro   0x00000000      0x1d2 _build/app_fifo.o
+ .debug_macro   0x00000000       0x22 _build/app_fifo.o
+ .debug_macro   0x00000000       0x16 _build/app_fifo.o
+ .debug_macro   0x00000000       0x73 _build/app_fifo.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x808 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x214 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x22 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x22 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x2e _build/app_gpiote.o
+ .debug_macro   0x00000000      0x372 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x10 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x1d2 _build/app_gpiote.o
+ .debug_macro   0x00000000     0x657d _build/app_gpiote.o
+ .debug_macro   0x00000000      0x848 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x8e _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x73 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x3a _build/app_gpiote.o
+ .debug_macro   0x00000000       0x2e _build/app_gpiote.o
+ .debug_macro   0x00000000       0x95 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x10 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x100 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x3a _build/app_gpiote.o
+ .debug_macro   0x00000000       0x52 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x19 _build/app_gpiote.o
+ .debug_macro   0x00000000      0x16d _build/app_gpiote.o
+ .debug_macro   0x00000000       0x16 _build/app_gpiote.o
+ .debug_macro   0x00000000       0x29 _build/app_gpiote.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/debug_helper.o
+ .debug_macro   0x00000000      0x808 _build/debug_helper.o
+ .debug_macro   0x00000000      0x214 _build/debug_helper.o
+ .debug_macro   0x00000000       0x3a _build/debug_helper.o
+ .debug_macro   0x00000000       0x2e _build/debug_helper.o
+ .debug_macro   0x00000000       0x95 _build/debug_helper.o
+ .debug_macro   0x00000000       0x10 _build/debug_helper.o
+ .debug_macro   0x00000000       0x89 _build/debug_helper.o
+ .debug_macro   0x00000000       0x10 _build/debug_helper.o
+ .debug_macro   0x00000000       0x3a _build/debug_helper.o
+ .debug_macro   0x00000000       0x52 _build/debug_helper.o
+ .debug_macro   0x00000000       0x19 _build/debug_helper.o
+ .debug_macro   0x00000000      0x16d _build/debug_helper.o
+ .debug_macro   0x00000000       0x10 _build/debug_helper.o
+ .debug_macro   0x00000000       0xf5 _build/debug_helper.o
+ .debug_macro   0x00000000       0x22 _build/debug_helper.o
+ .debug_macro   0x00000000       0x91 _build/debug_helper.o
+ .debug_macro   0x00000000       0x16 _build/debug_helper.o
+ .debug_macro   0x00000000      0x171 _build/debug_helper.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/buttons_handler.o
+ .debug_macro   0x00000000      0x808 _build/buttons_handler.o
+ .debug_macro   0x00000000      0x214 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x22 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x3a _build/buttons_handler.o
+ .debug_macro   0x00000000       0x2e _build/buttons_handler.o
+ .debug_macro   0x00000000       0x95 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x10 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x89 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x10 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x3a _build/buttons_handler.o
+ .debug_macro   0x00000000       0x52 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x19 _build/buttons_handler.o
+ .debug_macro   0x00000000      0x16d _build/buttons_handler.o
+ .debug_macro   0x00000000       0x10 _build/buttons_handler.o
+ .debug_macro   0x00000000       0xf5 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x22 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x91 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x16 _build/buttons_handler.o
+ .debug_macro   0x00000000      0x171 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x8e _build/buttons_handler.o
+ .debug_macro   0x00000000       0x16 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x16 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x22 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x2e _build/buttons_handler.o
+ .debug_macro   0x00000000      0x372 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x10 _build/buttons_handler.o
+ .debug_macro   0x00000000      0x1d2 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x73 _build/buttons_handler.o
+ .debug_macro   0x00000000       0x1c _build/buttons_handler.o
+ .debug_macro   0x00000000       0x40 _build/buttons_handler.o
+ .debug_macro   0x00000000     0x657d _build/buttons_handler.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x808 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x214 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x16 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x22 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x2e _build/system_nrf51.o
+ .debug_macro   0x00000000      0x372 _build/system_nrf51.o
+ .debug_macro   0x00000000       0x10 _build/system_nrf51.o
+ .debug_macro   0x00000000      0x1d2 _build/system_nrf51.o
+ .debug_macro   0x00000000     0x657d _build/system_nrf51.o
+ .debug_macro   0x00000000      0x848 _build/system_nrf51.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+LOAD _build/main.o
+LOAD _build/app_timer.o
+LOAD _build/uart.o
+LOAD _build/app_fifo.o
+LOAD _build/app_gpiote.o
+LOAD _build/TimeToEdge.o
+LOAD _build/debug_helper.o
+LOAD _build/buttons_handler.o
+LOAD _build/system_nrf51.o
+LOAD _build/gcc_startup_nrf51.o
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libm.a
+START GROUP
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+START GROUP
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a
+LOAD /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a
+END GROUP
+                0x20000a18                PROVIDE (__cs3_heap_start, _end)
+                0x20004000                PROVIDE (__cs3_heap_end, (__cs3_region_start_ram + __cs3_region_size_ram))
+                0x00000001                PROVIDE (__cs3_region_num, ((__cs3_regions_end - __cs3_regions) / 0x14))
+                0x20004000                PROVIDE (__cs3_stack, (__cs3_region_start_ram + __cs3_region_size_ram))
+
+.text           0x00000000     0x9d80
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                __cs3_region_start_rom = .
+ *(.cs3.region-head.rom)
+                0x00000001                ASSERT ((. == __cs3_region_start_rom), .cs3.region-head.rom not permitted)
+                0x00000000                __cs3_interrupt_vector = __cs3_interrupt_vector_cortex_m
+ *(.cs3.interrupt_vector)
+ .cs3.interrupt_vector
+                0x00000000       0xc0 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_interrupt_vector_cortex_m
+                0x00000001                ASSERT ((. != __cs3_interrupt_vector_cortex_m), No interrupt vector)
+                0x000000c0                PROVIDE (__cs3_reset, __cs3_reset_cortex_m)
+ *(.cs3.reset)
+ .cs3.reset     0x000000c0       0x20 _build/gcc_startup_nrf51.o
+                0x000000c0                __cs3_reset_cortex_m
+                0x00000130                PROVIDE (__cs3_start_asm, _start)
+ *(.text.cs3.init)
+ .text.cs3.init
+                0x000000e0       0x50 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                0x000000e0                __cs3_start_c
+ .text.cs3.init
+                0x00000130       0x10 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+                0x00000130                _start
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000140        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .text          0x00000140       0xbc /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text          0x000001fc      0x240 _build/main.o
+                0x0000026c                app_error_handler
+                0x000002a0                GPIOTE_IRQHandler
+                0x000002bc                hfclkInit
+                0x00000338                main
+ .text          0x0000043c     0x1344 _build/app_timer.o
+                0x00001370                RTC1_IRQHandler
+                0x000013bc                SWI0_IRQHandler
+                0x000013c8                app_timer_init
+                0x00001538                app_timer_create
+                0x00001628                app_timer_start
+                0x000016b4                app_timer_stop
+                0x00001714                app_timer_stop_all
+                0x0000173c                app_timer_cnt_get
+                0x00001758                app_timer_cnt_diff_compute
+ .text          0x00001780      0x2f4 _build/uart.o
+                0x000017f8                uart_put
+                0x00001834                uart_get_nb
+                0x00001894                uart_get
+                0x000018f0                uart_config
+                0x000019a8                uart_putstring
+                0x000019dc                uart_putstring_nonl
+                0x00001a04                UART0_IRQHandler
+ .text          0x00001a74      0x10c _build/app_fifo.o
+                0x00001a74                app_fifo_init
+                0x00001ad0                app_fifo_put
+                0x00001b20                app_fifo_get
+                0x00001b64                app_fifo_flush
+ .text          0x00001b80      0x710 _build/app_gpiote.o
+                0x00001d88                app_GPIOTE_IRQHandler
+                0x00001eec                app_gpiote_init
+                0x00001f90                app_gpiote_user_register
+                0x0000205c                app_gpiote_user_enable
+                0x000021b4                app_gpiote_user_disable
+                0x0000222c                app_gpiote_pins_state_get
+ .text          0x00002290      0x428 _build/TimeToEdge.o
+                0x000024f4                timer1_init
+                0x00002580                gpio_init
+                0x000025f4                TIMER1_IRQHandler
+                0x00002624                tte_gpioteIrqHandler
+                0x000026a8                start_waiting_for_edge
+ .text          0x000026b8       0x28 _build/debug_helper.o
+                0x000026b8                dbg_defaultFct
+                0x000026c8                dbg_setDebugFct
+ .text          0x000026e0      0x328 _build/buttons_handler.o
+                0x000027a4                btns_init
+                0x000027fc                btns_addGpioteBtn
+                0x000028a8                btns_rmGpioteBtn
+                0x00002950                btns_gpioTeHandler
+ .text          0x00002a08       0x4c _build/system_nrf51.o
+                0x00002a08                SystemInit
+                0x00002a3c                SystemCoreClockUpdate
+ .text          0x00002a54        0xc _build/gcc_startup_nrf51.o
+                0x00002a54                NMI_Handler
+                0x00002a56                HardFault_Handler
+                0x00002a58                SVC_Handler
+                0x00002a5a                PendSV_Handler
+                0x00002a5c                SysTick_Handler
+                0x00002a5e                TIMER2_IRQHandler
+                0x00002a5e                SPI0_TWI0_IRQHandler
+                0x00002a5e                RTC0_IRQHandler
+                0x00002a5e                POWER_CLOCK_IRQHandler
+                0x00002a5e                RADIO_IRQHandler
+                0x00002a5e                SWI4_IRQHandler
+                0x00002a5e                TEMP_IRQHandler
+                0x00002a5e                QDEC_IRQHandler
+                0x00002a5e                SWI5_IRQHandler
+                0x00002a5e                WUCOMP_COMP_IRQHandler
+                0x00002a5e                TIMER0_IRQHandler
+                0x00002a5e                ECB_IRQHandler
+                0x00002a5e                Default_Handler
+                0x00002a5e                ADC_IRQHandler
+                0x00002a5e                SWI3_IRQHandler
+                0x00002a5e                CCM_AAR_IRQHandler
+                0x00002a5e                WDT_IRQHandler
+                0x00002a5e                SWI2_IRQHandler
+                0x00002a5e                RNG_IRQHandler
+                0x00002a5e                SPI1_TWI1_IRQHandler
+                0x00002a5e                SWI1_IRQHandler
+ .text          0x00002a60      0x108 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x00002a60                memcpy
+ .text          0x00002b68       0x94 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x00002b68                memset
+ .text          0x00002bfc       0x84 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+                0x00002bfc                _sprintf_r
+                0x00002c3c                sprintf
+ .text          0x00002c80     0x1478 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                0x00002c80                _svfprintf_r
+ .text          0x000040f8     0x10b8 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                0x0000424c                _dtoa_r
+ .text          0x000051b0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .text          0x000051b0       0x98 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x000051b0                _setlocale_r
+                0x000051f4                __locale_charset
+                0x000051fc                __locale_mb_cur_max
+                0x00005208                __locale_msgcharset
+                0x00005214                __locale_cjk_lang
+                0x00005218                _localeconv_r
+                0x00005224                setlocale
+                0x0000523c                localeconv
+ .text          0x00005248      0x514 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x00005248                _malloc_r
+ .text          0x0000575c       0x90 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+                0x0000575c                memchr
+ .text          0x000057ec        0x8 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+                0x000057ec                __malloc_lock
+                0x000057f0                __malloc_unlock
+ *fill*         0x000057f4        0x4 
+ .text          0x000057f8      0x930 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                0x000057f8                _Balloc
+                0x00005848                _Bfree
+                0x00005860                __multadd
+                0x00005908                __s2b
+                0x000059a0                __hi0bits
+                0x000059d8                __lo0bits
+                0x00005a34                __i2b
+                0x00005a48                __multiply
+                0x00005ba8                __pow5mult
+                0x00005c54                __lshift
+                0x00005d20                __mcmp
+                0x00005d58                __mdiff
+                0x00005e44                __ulp
+                0x00005e88                __b2d
+                0x00005f28                __d2b
+                0x00005fdc                __ratio
+                0x0000604c                _mprec_log10
+                0x0000608c                __copybits
+                0x000060d0                __any_on
+ .text          0x00006128       0x58 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+                0x00006128                __fpclassifyd
+ .text          0x00006180       0x24 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+                0x00006180                _sbrk_r
+ .text          0x000061a4       0x14 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+                0x000061a4                strcmp
+ .text          0x000061b8       0x10 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                0x000061b8                strlen
+ .text          0x000061c8      0xbe4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+                0x000061c8                __ssprint_r
+                0x000062f0                _svfiprintf_r
+ .text          0x00006dac       0x60 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+                0x00006dac                _calloc_r
+ .text          0x00006e0c      0x230 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+                0x00006e0c                _malloc_trim_r
+                0x00006eac                _free_r
+ .text          0x0000703c       0xac /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+                0x0000703c                memmove
+ .text          0x000070e8      0x3dc /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+                0x000070e8                _realloc_r
+ .text          0x000074c4       0xfc /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                0x000074c4                cleanup_glue
+                0x000074e0                _reclaim_reent
+                0x0000757c                _wrapup_reent
+ .text          0x000075c0       0x9c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x000075c0                __udivsi3
+                0x000075c0                __aeabi_uidiv
+                0x00007648                __aeabi_uidivmod
+ .text          0x0000765c       0xc0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+                0x0000765c                __aeabi_idiv
+                0x0000765c                __divsi3
+                0x00007708                __aeabi_idivmod
+ .text          0x0000771c        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0000771c                __aeabi_ldiv0
+                0x0000771c                __aeabi_idiv0
+ .text          0x00007720       0x7c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x00007720                __aeabi_cdrcmple
+                0x00007730                __aeabi_cdcmple
+                0x00007730                __aeabi_cdcmpeq
+                0x00007740                __aeabi_dcmpeq
+                0x0000774c                __aeabi_dcmplt
+                0x00007760                __aeabi_dcmple
+                0x00007774                __aeabi_dcmpgt
+                0x00007788                __aeabi_dcmpge
+ .text          0x0000779c       0x40 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0000779c                __aeabi_uldivmod
+ .text          0x000077dc       0x74 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+                0x000077dc                __gnu_ldivmod_helper
+                0x00007818                __gnu_uldivmod_helper
+ .text          0x00007850      0x778 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+                0x00007850                __aeabi_dadd
+ .text          0x00007fc8      0x5bc /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+                0x00007fc8                __aeabi_ddiv
+ .text          0x00008584       0x7c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+                0x00008584                __eqdf2
+                0x00008584                __nedf2
+ .text          0x00008600       0xe0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+                0x00008600                __gtdf2
+                0x00008600                __gedf2
+ .text          0x000086e0       0xbc /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+                0x000086e0                __ltdf2
+                0x000086e0                __ledf2
+ .text          0x0000879c      0x4dc /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                0x0000879c                __aeabi_dmul
+ .text          0x00008c78      0x708 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+                0x00008c78                __aeabi_dsub
+ .text          0x00009380       0x68 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+                0x00009380                __aeabi_d2iz
+ .text          0x000093e8       0x78 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+                0x000093e8                __aeabi_i2d
+ .text          0x00009460       0x6c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+                0x00009460                __aeabi_ui2d
+ .text          0x000094cc       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+                0x000094cc                __clzsi2
+ .text          0x00009508       0x44 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+                0x00009508                __aeabi_lmul
+                0x00009508                __muldi3
+ .text          0x0000954c      0x3d8 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                0x0000954c                __divdi3
+ .text          0x00009924      0x39c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                0x00009924                __udivdi3
+ .text          0x00009cc0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .text          0x00009cc0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .text          0x00009cc0       0x34 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+                0x00009cc0                __cs3_premain
+ .text          0x00009cf4       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+                0x00009cf4                _sbrk
+ .text          0x00009d30        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .text          0x00009d30        0xc /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                0x00009d30                __errno
+ .text          0x00009d3c       0x44 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                0x00009d3c                __libc_init_array
+ .text          0x00009d80        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.cs3.reset
+                0x00009d80        0x0 _build/gcc_startup_nrf51.o
+ .ARM.extab     0x00009d80        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00009d80        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ *(.gcc_except_table)
+
+.v4_bx          0x00009d80        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00009d80        0x0
+ .iplt          0x00000000        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00009d80        0x4
+ *(.eh_frame)
+ .eh_frame      0x00009d80        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .eh_frame      0x00009d80        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+                0x00009d84                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00009d84        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.cs3.reset
+                0x00009d84        0x8 _build/gcc_startup_nrf51.o
+ .ARM.exidx     0x00009d8c        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00009d8c        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x00009d8c                PROVIDE (__exidx_end, .)
+
+.rel.dyn        0x00009d8c        0x0
+ .rel.iplt      0x00000000        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.rodata         0x00009d90      0x5e0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00009d90       0x54 _build/main.o
+ .rodata        0x00009de4       0x2c _build/app_timer.o
+ .rodata        0x00009e10       0x14 _build/uart.o
+ .rodata        0x00009e24      0x184 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x00009fa8       0x42 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x00009fea        0x2 
+ .rodata.str1.4
+                0x00009fec       0x10 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x00009ffc        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x00009ffc                _global_impure_ptr
+ .rodata.str1.4
+                0x0000a000        0x2 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0000a002        0x2 
+ .rodata.str1.4
+                0x0000a004        0xc /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x0000a010      0x128 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+                0x0000a020                __mprec_tens
+                0x0000a0e8                __mprec_tinytens
+                0x0000a110                __mprec_bigtens
+ .rodata        0x0000a138      0x184 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x00000000       0x30 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .rodata        0x0000a2bc       0x40 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .rodata        0x0000a2fc       0x40 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+                0x0000a33c                . = ALIGN (0x4)
+ *(.init)
+ .init          0x0000a33c        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x0000a33c                _init
+ .init          0x0000a340        0x8 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x0000a348                . = ALIGN (0x4)
+                0x0000a348                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000a348                __preinit_array_end = .
+                0x0000a348                . = ALIGN (0x4)
+                0x0000a348                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000a348        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+                0x0000a34c                __init_array_end = .
+                0x0000a34c                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x0000a34c        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x0000a34c                _fini
+ .fini          0x0000a350        0x8 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x0000a358                . = ALIGN (0x4)
+                0x0000a358                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x0000a358        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0000a35c                __fini_array_end = .
+                0x0000a35c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000a35c                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000a35c                . = ALIGN (0x4)
+                0x0000a35c                __cs3_regions = .
+                0x0000a35c        0x4 LONG 0x0
+                0x0000a360        0x4 LONG 0xa370 __cs3_region_init_ram
+                0x0000a364        0x4 LONG 0x20000000 __cs3_region_start_ram
+                0x0000a368        0x4 LONG 0x8d8 __cs3_region_init_size_ram
+                0x0000a36c        0x4 LONG 0x140 __cs3_region_zero_size_ram
+                0x0000a370                __cs3_regions_end = .
+                0x0000a370                . = ALIGN (0x8)
+ *(.rom)
+ *(.rom.b .bss.rom)
+                0x0000a370                _etext = .
+                0x00040000                __cs3_region_end_rom = (__cs3_region_start_rom + 0x40000)
+                0x00040000                __cs3_region_size_rom = 0x40000
+
+.data           0x20000000      0x8d8 load address 0x0000a370
+                0x20000000                __cs3_region_start_ram = .
+ *(.cs3.region-head.ram)
+ *(.jcr)
+ .jcr           0x20000000        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .jcr           0x20000000        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x20000004        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x20000004        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+                0x20000004                __dso_handle
+ .data          0x20000008        0x0 _build/main.o
+ .data          0x20000008        0x0 _build/app_timer.o
+ .data          0x20000008        0x0 _build/uart.o
+ .data          0x20000008        0x0 _build/app_fifo.o
+ .data          0x20000008        0x0 _build/app_gpiote.o
+ .data          0x20000008        0x0 _build/TimeToEdge.o
+ .data          0x20000008        0x4 _build/debug_helper.o
+                0x20000008                _dbg_dbgFunction
+ .data          0x2000000c        0x0 _build/buttons_handler.o
+ .data          0x2000000c        0x4 _build/system_nrf51.o
+                0x2000000c                SystemCoreClock
+ .data          0x20000010        0x0 _build/gcc_startup_nrf51.o
+ .data          0x20000010        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .data          0x20000010        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .data          0x20000010        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .data          0x20000010        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .data          0x20000010        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .data          0x20000010      0x430 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x20000010                _impure_ptr
+ .data          0x20000440       0x7c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x20000460                __mb_cur_max
+ .data          0x200004bc      0x410 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x200004bc                __malloc_av_
+                0x200008c4                __malloc_sbrk_base
+                0x200008c8                __malloc_trim_threshold
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .data          0x200008cc        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .data          0x200008cc        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .data          0x200008d0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .data          0x200008d0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .data          0x200008d0        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .data          0x200008d0        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+                0x200008d0                __cs3_heap_limit
+                0x200008d8                . = ALIGN (0x8)
+ *fill*         0x200008d4        0x4 
+ *(.ram)
+                0x200008d8                _edata = .
+
+.tm_clone_table
+                0x200008d8        0x0 load address 0x0000ac48
+ .tm_clone_table
+                0x200008d8        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .tm_clone_table
+                0x200008d8        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+
+.igot.plt       0x200008d8        0x0 load address 0x0000ac48
+ .igot.plt      0x00000000        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.bss            0x200008d8      0x140 load address 0x0000ac48
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200008d8        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .bss           0x200008d8       0x1c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .bss           0x200008f4        0x1 _build/main.o
+                0x200008f4                cntr
+ *fill*         0x200008f5        0x3 
+ .bss           0x200008f8       0x28 _build/app_timer.o
+ .bss           0x20000920       0x14 _build/uart.o
+ .bss           0x20000934        0x0 _build/app_fifo.o
+ .bss           0x20000934        0xc _build/app_gpiote.o
+ .bss           0x20000940        0xc _build/TimeToEdge.o
+                0x20000940                timer_delay_ready
+                0x20000948                timer_delay
+ .bss           0x2000094c        0x0 _build/debug_helper.o
+ .bss           0x2000094c        0x4 _build/buttons_handler.o
+ .bss           0x20000950        0x0 _build/system_nrf51.o
+ .bss           0x20000950        0x0 _build/gcc_startup_nrf51.o
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .bss           0x20000950        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .bss           0x20000950        0xc /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+                0x20000950                _PathLocale
+                0x20000954                __mlocale_changed
+                0x20000958                __nlocale_changed
+ .bss           0x2000095c       0x34 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+                0x2000095c                __malloc_top_pad
+                0x20000960                __malloc_current_mallinfo
+                0x20000988                __malloc_max_sbrked_mem
+                0x2000098c                __malloc_max_total_mem
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .bss           0x20000990        0x0 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+ *(COMMON)
+ COMMON         0x20000990        0x4 _build/main.o
+                0x20000990                gbtnsDataPtr
+ COMMON         0x20000994       0x80 _build/debug_helper.o
+                0x20000994                _dbg_debugBuffer
+ COMMON         0x20000a14        0x4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+                0x20000a14                errno
+                0x20000a18                . = ALIGN (0x8)
+ *(.ram.b .bss.ram)
+                0x20000a18                _end = .
+                0x20000a18                __end = .
+                0x20004000                __cs3_region_end_ram = (__cs3_region_start_ram + 0x4000)
+                0x00004000                __cs3_region_size_ram = 0x4000
+                0x0000a370                __cs3_region_init_ram = LOADADDR (.data)
+                0x000008d8                __cs3_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000140                __cs3_region_zero_size_ram = (_end - _edata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 _build/app_timer.o
+ .debug_aranges
+                0x00000020       0x20 _build/uart.o
+ .debug_aranges
+                0x00000040       0x20 _build/app_fifo.o
+ .debug_aranges
+                0x00000060       0x20 _build/app_gpiote.o
+ .debug_aranges
+                0x00000080       0x20 _build/debug_helper.o
+ .debug_aranges
+                0x000000a0       0x20 _build/buttons_handler.o
+ .debug_aranges
+                0x000000c0       0x20 _build/system_nrf51.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3ca6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d86 _build/app_timer.o
+ .debug_info    0x00001d86      0x87a _build/uart.o
+ .debug_info    0x00002600      0x1e4 _build/app_fifo.o
+ .debug_info    0x000027e4      0x9df _build/app_gpiote.o
+ .debug_info    0x000031c3      0x12c _build/debug_helper.o
+ .debug_info    0x000032ef      0x8f7 _build/buttons_handler.o
+ .debug_info    0x00003be6       0xc0 _build/system_nrf51.o
+
+.debug_abbrev   0x00000000      0xb1a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x356 _build/app_timer.o
+ .debug_abbrev  0x00000356      0x1c8 _build/uart.o
+ .debug_abbrev  0x0000051e       0xab _build/app_fifo.o
+ .debug_abbrev  0x000005c9      0x240 _build/app_gpiote.o
+ .debug_abbrev  0x00000809       0xa6 _build/debug_helper.o
+ .debug_abbrev  0x000008af      0x208 _build/buttons_handler.o
+ .debug_abbrev  0x00000ab7       0x63 _build/system_nrf51.o
+
+.debug_line     0x00000000     0x1ec2
+ *(.debug_line)
+ .debug_line    0x00000000      0x810 _build/app_timer.o
+ .debug_line    0x00000810      0x279 _build/uart.o
+ .debug_line    0x00000a89      0x445 _build/app_fifo.o
+ .debug_line    0x00000ece      0x538 _build/app_gpiote.o
+ .debug_line    0x00001406      0x31d _build/debug_helper.o
+ .debug_line    0x00001723      0x57a _build/buttons_handler.o
+ .debug_line    0x00001c9d      0x225 _build/system_nrf51.o
+
+.debug_frame    0x00000000     0x1854
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x7d4 _build/app_timer.o
+ .debug_frame   0x000007d4      0x14c _build/uart.o
+ .debug_frame   0x00000920       0x90 _build/app_fifo.o
+ .debug_frame   0x000009b0      0x194 _build/app_gpiote.o
+ .debug_frame   0x00000b44       0x50 _build/debug_helper.o
+ .debug_frame   0x00000b94      0x110 _build/buttons_handler.o
+ .debug_frame   0x00000ca4       0x48 _build/system_nrf51.o
+ .debug_frame   0x00000cec       0x38 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000d24       0x2c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000d50       0x4c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x00000d9c       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000dd8       0x68 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00000e40       0xa4 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+ .debug_frame   0x00000ee4       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000f20       0x30 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .debug_frame   0x00000f50       0x30 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000f80      0x27c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .debug_frame   0x000011fc       0x28 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001224       0x2c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001250       0x20 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00001270       0x20 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001290       0x68 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x000012f8       0x28 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001320       0x54 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .debug_frame   0x00001374       0x30 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .debug_frame   0x000013a4       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x000013e0       0x68 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .debug_frame   0x00001448       0x20 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001468       0x20 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x00001488       0x60 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .debug_frame   0x000014e8       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .debug_frame   0x00001524       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x00001560       0x34 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x00001594       0x34 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x000015c8       0x34 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x000015fc       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x00001638       0x38 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x00001670       0x2c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000169c       0x2c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .debug_frame   0x000016c8       0x28 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x000016f0       0x30 /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .debug_frame   0x00001720       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000175c       0x3c /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x00001798       0x48 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .debug_frame   0x000017e0       0x28 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .debug_frame   0x00001808       0x20 /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .debug_frame   0x00001828       0x2c /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+
+.debug_str      0x00000000    0x2ef99
+ *(.debug_str)
+ .debug_str     0x00000000    0x2e361 _build/app_timer.o
+                              0x2ee84 (size before relaxing)
+ .debug_str     0x0002e361      0x268 _build/uart.o
+                              0x298da (size before relaxing)
+ .debug_str     0x0002e5c9       0xf4 _build/app_fifo.o
+                               0x7671 (size before relaxing)
+ .debug_str     0x0002e6bd      0x3eb _build/app_gpiote.o
+                              0x2c6e1 (size before relaxing)
+ .debug_str     0x0002eaa8      0x12a _build/debug_helper.o
+                               0x5255 (size before relaxing)
+ .debug_str     0x0002ebd2      0x332 _build/buttons_handler.o
+                              0x2ab25 (size before relaxing)
+ .debug_str     0x0002ef04       0x95 _build/system_nrf51.o
+                              0x294d5 (size before relaxing)
+
+.debug_loc      0x00000000     0x10c4
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x898 _build/app_timer.o
+ .debug_loc     0x00000898      0x224 _build/uart.o
+ .debug_loc     0x00000abc       0xe0 _build/app_fifo.o
+ .debug_loc     0x00000b9c      0x2a0 _build/app_gpiote.o
+ .debug_loc     0x00000e3c       0x70 _build/debug_helper.o
+ .debug_loc     0x00000eac      0x1c0 _build/buttons_handler.o
+ .debug_loc     0x0000106c       0x58 _build/system_nrf51.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000       0x30
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x30 _build/app_timer.o
+
+.comment        0x00000000       0x30
+ .comment       0x00000000       0x30 _build/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 _build/app_timer.o
+ .comment       0x00000000       0x31 _build/uart.o
+ .comment       0x00000000       0x31 _build/app_fifo.o
+ .comment       0x00000000       0x31 _build/app_gpiote.o
+ .comment       0x00000000       0x31 _build/TimeToEdge.o
+ .comment       0x00000000       0x31 _build/debug_helper.o
+ .comment       0x00000000       0x31 _build/buttons_handler.o
+ .comment       0x00000000       0x31 _build/system_nrf51.o
+
+.stack          0x00000000      0x800
+ .stack         0x00000000      0x800 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_stack_mem
+
+.heap           0x00000000      0x800
+ .heap          0x00000000      0x800 _build/gcc_startup_nrf51.o
+                0x00000000                __cs3_heap_start
+                0x00000800                __cs3_heap_end
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x00000048       0x31 _build/main.o
+ .ARM.attributes
+                0x00000079       0x31 _build/app_timer.o
+ .ARM.attributes
+                0x000000aa       0x31 _build/uart.o
+ .ARM.attributes
+                0x000000db       0x31 _build/app_fifo.o
+ .ARM.attributes
+                0x0000010c       0x31 _build/app_gpiote.o
+ .ARM.attributes
+                0x0000013d       0x31 _build/TimeToEdge.o
+ .ARM.attributes
+                0x0000016e       0x31 _build/debug_helper.o
+ .ARM.attributes
+                0x0000019f       0x31 _build/buttons_handler.o
+ .ARM.attributes
+                0x000001d0       0x31 _build/system_nrf51.o
+ .ARM.attributes
+                0x00000201       0x14 _build/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x00000215       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000240       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000026b       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x00000296       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x000002c1       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000002ec       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000317       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x00000342       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000036d       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000398       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000003c3       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000003ee       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x00000419       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000444       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000046f       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000049a       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000004c5       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x000004f0       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000051b       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000546       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000571       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000059c       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000005b9       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000005d6       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000005f3       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000610       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000062d       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000658       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000683       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x000006ae       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x000006d9       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000704       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x0000072f       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x0000075a       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000785       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x000007b0       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x000007db       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000806       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000823       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x0000084e       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000879       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x000008a4       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x000008cf       0x1d /home/krzys/Documents/University/slip/SLIP/arm-2013.05/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .ARM.attributes
+                0x000008ec       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(start_c.o)
+ .ARM.attributes
+                0x00000917       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-sbrk.o)
+ .ARM.attributes
+                0x00000942       0x1b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3unhosted.a(unhosted-start.o)
+ .ARM.attributes
+                0x0000095d       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000988       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000009b3       0x2b /home/krzys/Documents/University/slip/SLIP/arm-2013.05//arm-none-eabi/lib/armv6-m/libcs3.a(heap.o)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(_build/emitter-test_xxaa.out elf32-littlearm)
+
+.debug_macro    0x00000000     0x92c0
+ .debug_macro   0x00000000      0x269 _build/app_timer.o
+ .debug_macro   0x00000269      0x808 _build/app_timer.o
+ .debug_macro   0x00000a71      0x214 _build/app_timer.o
+ .debug_macro   0x00000c85       0x22 _build/app_timer.o
+ .debug_macro   0x00000ca7       0x3a _build/app_timer.o
+ .debug_macro   0x00000ce1       0x2e _build/app_timer.o
+ .debug_macro   0x00000d0f       0x95 _build/app_timer.o
+ .debug_macro   0x00000da4       0x10 _build/app_timer.o
+ .debug_macro   0x00000db4       0x89 _build/app_timer.o
+ .debug_macro   0x00000e3d       0x10 _build/app_timer.o
+ .debug_macro   0x00000e4d       0x3a _build/app_timer.o
+ .debug_macro   0x00000e87       0x52 _build/app_timer.o
+ .debug_macro   0x00000ed9       0x19 _build/app_timer.o
+ .debug_macro   0x00000ef2      0x16d _build/app_timer.o
+ .debug_macro   0x0000105f       0x10 _build/app_timer.o
+ .debug_macro   0x0000106f       0xf5 _build/app_timer.o
+ .debug_macro   0x00001164       0x22 _build/app_timer.o
+ .debug_macro   0x00001186       0x91 _build/app_timer.o
+ .debug_macro   0x00001217       0x16 _build/app_timer.o
+ .debug_macro   0x0000122d      0x171 _build/app_timer.o
+ .debug_macro   0x0000139e       0x8e _build/app_timer.o
+ .debug_macro   0x0000142c       0x16 _build/app_timer.o
+ .debug_macro   0x00001442       0x16 _build/app_timer.o
+ .debug_macro   0x00001458       0x22 _build/app_timer.o
+ .debug_macro   0x0000147a       0x2e _build/app_timer.o
+ .debug_macro   0x000014a8      0x372 _build/app_timer.o
+ .debug_macro   0x0000181a       0x10 _build/app_timer.o
+ .debug_macro   0x0000182a      0x1d2 _build/app_timer.o
+ .debug_macro   0x000019fc       0x73 _build/app_timer.o
+ .debug_macro   0x00001a6f       0x1c _build/app_timer.o
+ .debug_macro   0x00001a8b       0x40 _build/app_timer.o
+ .debug_macro   0x00001acb       0x10 _build/app_timer.o
+ .debug_macro   0x00001adb       0x35 _build/app_timer.o
+ .debug_macro   0x00001b10       0x16 _build/app_timer.o
+ .debug_macro   0x00001b26       0x23 _build/app_timer.o
+ .debug_macro   0x00001b49     0x657d _build/app_timer.o
+ .debug_macro   0x000080c6       0x10 _build/app_timer.o
+ .debug_macro   0x000080d6      0x848 _build/app_timer.o
+ .debug_macro   0x0000891e       0x40 _build/app_timer.o
+ .debug_macro   0x0000895e       0x42 _build/app_timer.o
+ .debug_macro   0x000089a0       0xa6 _build/uart.o
+ .debug_macro   0x00008a46      0x15d _build/app_fifo.o
+ .debug_macro   0x00008ba3      0x100 _build/app_fifo.o
+ .debug_macro   0x00008ca3       0x29 _build/app_fifo.o
+ .debug_macro   0x00008ccc      0x1b3 _build/app_gpiote.o
+ .debug_macro   0x00008e7f       0x1c _build/app_gpiote.o
+ .debug_macro   0x00008e9b       0x10 _build/app_gpiote.o
+ .debug_macro   0x00008eab       0x12 _build/app_gpiote.o
+ .debug_macro   0x00008ebd       0x1c _build/app_gpiote.o
+ .debug_macro   0x00008ed9      0x10a _build/debug_helper.o
+ .debug_macro   0x00008fe3       0x16 _build/debug_helper.o
+ .debug_macro   0x00008ff9       0x10 _build/debug_helper.o
+ .debug_macro   0x00009009      0x1e9 _build/buttons_handler.o
+ .debug_macro   0x000091f2       0x10 _build/buttons_handler.o
+ .debug_macro   0x00009202       0x22 _build/buttons_handler.o
+ .debug_macro   0x00009224       0x9c _build/system_nrf51.o
