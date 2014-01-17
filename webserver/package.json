@@ -1,32 +1,33 @@
 {
-    "name": "supermarket-web-server",
-    "version": "0.0.4",
-    "author": "SLIP Group A <msanatan@gmail.com>",
-    "description": "Server that connects with Android devices and the database server",
-    "contributors": [
-        {
-            "name": "Marcus Sanatan",
-            "email": "msanatan@gmail.com"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/VincentSteil/Supermarket-Behavioral-Positioning-Tracking"
-    },
-    "dependencies": {
-        "ejs": "0.8.x",
-        "express": "3.4.x",
-        "mysql": "2.0.0-alpha9",
-        "node-gcm": "0.9.x"
-    },
-    "devDependencies" : {
-        "assert" : "0.4.9"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">=1.0"
-    },
-    "scripts": {
-        "start": "node app.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+  "name": "supermarket-web-server",
+  "version": "0.0.4",
+  "author": "SLIP Group A <msanatan@gmail.com>",
+  "description": "Server that connects with Android devices and the database server",
+  "contributors": [
+    {
+      "name": "Marcus Sanatan",
+      "email": "msanatan@gmail.com"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincentSteil/Supermarket-Behavioral-Positioning-Tracking"
+  },
+  "dependencies": {
+    "ejs": "0.8.x",
+    "express": "3.4.x",
+    "mysql": "2.0.0-alpha9",
+    "node-gcm": "0.9.x"
+  },
+  "devDependencies": {
+    "assert": "0.4.9",
+    "loadtest": "~0.2.7"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=1.0"
+  },
+  "scripts": {
+    "start": "node app.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+  }
 }
